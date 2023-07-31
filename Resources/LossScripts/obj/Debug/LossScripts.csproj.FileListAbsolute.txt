@@ -1,0 +1,27 @@
+D:\School\Digipen\Year 1 Sem 3\GAMXXX\lost_cause\Engine\Version_1.0\Debug\LossScripts.dll
+D:\School\Digipen\Year 1 Sem 3\GAMXXX\lost_cause\Engine\Version_1.0\Debug\LossScripts.pdb
+D:\School\Digipen\Year 1 Sem 3\GAMXXX\lost_cause\Engine\Version_1.0\Resources\LossScripts\obj\Debug\LossScripts.csproj.CopyComplete
+D:\School\Digipen\Year 1 Sem 3\GAMXXX\lost_cause\Engine\Version_1.0\Resources\LossScripts\obj\Debug\LossScripts.dll
+D:\School\Digipen\Year 1 Sem 3\GAMXXX\lost_cause\Engine\Version_1.0\Resources\LossScripts\obj\Debug\LossScripts.pdb
+C:\Users\weijierey.koh\Desktop\SVN\GAM250\Engine\Version_1.0\Debug\LossScripts.dll
+C:\Users\weijierey.koh\Desktop\SVN\GAM250\Engine\Version_1.0\Debug\LossScripts.pdb
+C:\Users\weijierey.koh\Desktop\SVN\GAM250\Engine\Version_1.0\Resources\LossScripts\obj\Debug\LossScripts.csproj.CopyComplete
+C:\Users\weijierey.koh\Desktop\SVN\GAM250\Engine\Version_1.0\Resources\LossScripts\obj\Debug\LossScripts.dll
+C:\Users\weijierey.koh\Desktop\SVN\GAM250\Engine\Version_1.0\Resources\LossScripts\obj\Debug\LossScripts.pdb
+C:\Users\weijierey.koh\Desktop\GAM250\Engine\Version_1.0\Debug\LossScripts.dll
+C:\Users\weijierey.koh\Desktop\GAM250\Engine\Version_1.0\Debug\LossScripts.pdb
+C:\Users\weijierey.koh\Desktop\GAM250\Engine\Version_1.0\Resources\LossScripts\obj\Debug\LossScripts.csproj.CopyComplete
+C:\Users\weijierey.koh\Desktop\GAM250\Engine\Version_1.0\Resources\LossScripts\obj\Debug\LossScripts.dll
+C:\Users\weijierey.koh\Desktop\GAM250\Engine\Version_1.0\Resources\LossScripts\obj\Debug\LossScripts.pdb
+D:\School\Digipen\Year 2 Sem 2\GAM250\lost_cause\Engine\Version_1.0\Debug\LossScripts.dll
+D:\School\Digipen\Year 2 Sem 2\GAM250\lost_cause\Engine\Version_1.0\Debug\LossScripts.pdb
+D:\School\Digipen\Year 2 Sem 2\GAM250\lost_cause\Engine\Version_1.0\Resources\LossScripts\obj\Debug\LossScripts.csprojAssemblyReference.cache
+D:\School\Digipen\Year 2 Sem 2\GAM250\lost_cause\Engine\Version_1.0\Resources\LossScripts\obj\Debug\LossScripts.csproj.CopyComplete
+D:\School\Digipen\Year 2 Sem 2\GAM250\lost_cause\Engine\Version_1.0\Resources\LossScripts\obj\Debug\LossScripts.dll
+D:\School\Digipen\Year 2 Sem 2\GAM250\lost_cause\Engine\Version_1.0\Resources\LossScripts\obj\Debug\LossScripts.pdb
+C:\All\4) DigiPen Institute of Technology\SVN Projects\GAM200 Lost Cause\Engine\Version_1.0\Debug\LossScripts.dll
+C:\All\4) DigiPen Institute of Technology\SVN Projects\GAM200 Lost Cause\Engine\Version_1.0\Debug\LossScripts.pdb
+C:\All\4) DigiPen Institute of Technology\SVN Projects\GAM200 Lost Cause\Engine\Version_1.0\Resources\LossScripts\obj\Debug\LossScripts.csproj.CoreCompileInputs.cache
+C:\All\4) DigiPen Institute of Technology\SVN Projects\GAM200 Lost Cause\Engine\Version_1.0\Resources\LossScripts\obj\Debug\LossScripts.csproj.CopyComplete
+C:\All\4) DigiPen Institute of Technology\SVN Projects\GAM200 Lost Cause\Engine\Version_1.0\Resources\LossScripts\obj\Debug\LossScripts.dll
+C:\All\4) DigiPen Institute of Technology\SVN Projects\GAM200 Lost Cause\Engine\Version_1.0\Resources\LossScripts\obj\Debug\LossScripts.pdb

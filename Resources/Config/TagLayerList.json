@@ -1,0 +1,1044 @@
+{
+  "CollisionMatrix" : 
+  [
+    {
+      "Collide" : true,
+      "Pair" : [ 14, 14 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 15, 15 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 16, 16 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 17, 17 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 18, 18 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 19, 19 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 20, 20 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 21, 21 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 13, 13 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 12, 12 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 11, 11 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 10, 10 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 9, 9 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 8, 8 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 7, 7 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 6, 6 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 5, 5 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 4, 4 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 0 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 1, 1 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 2, 2 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 3, 3 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 10, 11 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 6, 7 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 4, 5 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 1 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 14, 15 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 12, 13 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 8, 9 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 2, 3 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 9, 11 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 2 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 17, 19 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 8, 10 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 1, 3 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 8, 11 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 3 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 9, 10 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 1, 2 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 17, 21 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 9, 13 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 8, 12 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 4 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 1, 5 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 16, 20 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 11, 15 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 2, 6 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 5 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 1, 4 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 10, 15 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 2, 7 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 9, 15 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 8, 14 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 6 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 1, 7 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 11, 13 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 2, 4 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 7 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 1, 6 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 10, 13 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 2, 5 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 2, 10 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 7, 15 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 5, 13 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 1, 9 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 8 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 3, 11 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 4, 12 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 6, 14 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 2, 11 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 9 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 4, 13 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 6, 15 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 1, 8 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 3, 10 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 5, 12 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 7, 14 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 2, 8 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 3, 9 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 1, 11 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 10 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 2, 9 ]
+    },
+    {
+      "Collide" : false,
+      "Pair" : [ 1, 10 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 11 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 3, 8 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 2, 14 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 3, 15 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 1, 13 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 5, 9 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 12 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 4, 8 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 2, 15 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 3, 14 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 6, 11 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 7, 10 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 1, 12 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 5, 8 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 13 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 4, 9 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 2, 12 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 3, 13 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 1, 15 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 7, 9 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 14 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 6, 8 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 2, 13 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 3, 12 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 4, 11 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 5, 10 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 1, 14 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 7, 8 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 15 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 6, 9 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 2, 18 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 16 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 2, 19 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 17 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 4, 21 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 2, 16 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 6, 20 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 18 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 2, 17 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 19 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 20 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 0, 21 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 4, 17 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 1, 16 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 1, 17 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 3, 19 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 5, 21 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 1, 18 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 1, 19 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 3, 17 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 1, 20 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 1, 21 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 5, 17 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 2, 20 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 6, 16 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 2, 21 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 3, 4 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 11, 12 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 3, 5 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 10, 12 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 19, 21 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 3, 6 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 11, 14 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 3, 7 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 10, 14 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 3, 16 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 3, 18 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 3, 20 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 3, 21 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 5, 19 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 4, 6 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 5, 7 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 12, 14 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 13, 15 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 4, 7 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 5, 6 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 4, 10 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 5, 11 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 4, 14 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 6, 12 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 4, 15 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 6, 13 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 4, 16 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 4, 18 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 4, 19 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 4, 20 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 5, 14 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 7, 12 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 5, 15 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 7, 13 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 5, 16 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 5, 18 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 5, 20 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 6, 10 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 7, 11 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 6, 17 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 6, 18 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 6, 19 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 6, 21 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 7, 16 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 7, 17 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 7, 18 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 7, 19 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 7, 20 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 7, 21 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 8, 13 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 9, 12 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 8, 15 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 9, 14 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 8, 16 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 8, 17 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 10, 19 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 12, 21 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 8, 18 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 8, 19 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 10, 17 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 8, 20 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 8, 21 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 12, 17 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 9, 16 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 9, 17 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 13, 21 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 9, 18 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 9, 19 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 9, 20 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 9, 21 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 13, 17 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 10, 16 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 10, 18 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 10, 20 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 10, 21 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 12, 19 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 11, 16 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 15, 20 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 11, 17 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 11, 18 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 11, 19 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 11, 20 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 15, 16 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 11, 21 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 12, 15 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 13, 14 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 12, 16 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 12, 18 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 12, 20 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 13, 16 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 13, 18 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 13, 19 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 13, 20 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 14, 16 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 14, 17 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 14, 18 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 14, 19 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 14, 20 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 14, 21 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 15, 17 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 15, 18 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 15, 19 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 15, 21 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 16, 17 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 16, 18 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 16, 19 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 16, 21 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 17, 18 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 17, 20 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 18, 19 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 18, 20 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 18, 21 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 19, 20 ]
+    },
+    {
+      "Collide" : true,
+      "Pair" : [ 20, 21 ]
+    }
+  ],
+  "Layer" : [ "None" ],
+  "SortingLayer" : [ "None" ],
+  "Tags" : 
+  [
+    "None",
+    "Player",
+    "Enemy",
+    "HingePoint",
+    "SlingPoint",
+    "Bounce",
+    "JumpWall",
+    "IgnoreCollision",
+    "Spike",
+    "Thorn",
+    "Father",
+    "Checkpoint",
+    "EnemyDead",
+    "CameraZone",
+    "MainCamera",
+    "BGMController",
+    "EventTrigger",
+    "RoomTransition",
+    "SafetyCheckpoint",
+    "CamShake",
+    "Floor",
+    "CameraOffset"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "Active" : true,
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "ParticleEmitter",
+      "EndColorMaxW" : 0.11764705926179886,
+      "EndColorMaxX" : 1.0,
+      "EndColorMaxY" : 1.0,
+      "EndColorMaxZ" : 1.0,
+      "EndColorMinW" : 0.0,
+      "EndColorMinX" : 1.0,
+      "EndColorMinY" : 1.0,
+      "EndColorMinZ" : 1.0,
+      "Particle Burst" : 
+      [
+        {
+          "BurstCount" : 20,
+          "BurstTime" : 0.0
+        }
+      ],
+      "StartColorMaxW" : 1.0,
+      "StartColorMaxX" : 1.0,
+      "StartColorMaxY" : 1.0,
+      "StartColorMaxZ" : 1.0,
+      "StartColorMinW" : 0.87450981140136719,
+      "StartColorMinX" : 1.0,
+      "StartColorMinY" : 1.0,
+      "StartColorMinZ" : 1.0,
+      "circleRadius" : 0.20000000298023224,
+      "coneAngle" : 0.0,
+      "constForceMaxX" : 0.10000000149011612,
+      "constForceMaxY" : 0.10000000149011612,
+      "constForceMinX" : 0.0,
+      "constForceMinY" : 0.0,
+      "duration" : 0.0,
+      "edgeLength" : 0.0,
+      "emitterMode" : 2,
+      "finalScaleMax" : 0.10000000149011612,
+      "finalScaleMin" : 0.0,
+      "lifeTimeMax" : 5.0,
+      "lifeTimeMin" : 2.0,
+      "looping" : false,
+      "particlePerSecond" : 0.0,
+      "rotationMax" : -30.0,
+      "rotationMin" : 30.0,
+      "rotationSpeedMax" : 0.0,
+      "rotationSpeedMin" : 0.0,
+      "scaleMax" : 0.5,
+      "scaleMin" : 0.30000001192092896,
+      "startSpeedMax" : 0.80000001192092896,
+      "startSpeedMin" : 0.5,
+      "texture" : "Dandelion_Particle"
+    },
+    {
+      "Active" : true,
+      "Component Name" : "DandeParticle",
+      "lifetimeDurationCurrent" : 
+      {
+        "Field Name" : "lifetimeDurationCurrent",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "lifetimeDurationSet" : 
+      {
+        "Field Name" : "lifetimeDurationSet",
+        "Field Type" : 5,
+        "Field Value" : 5.0
+      }
+    }
+  ],
+  "ID" : 5550,
+  "ObjName" : "DandeParticle",
+  "Tag" : "None",
+  "Transform" : 
+  {
+    "Active" : true,
+    "Component Name" : "Transform",
+    "Position" : [ 0.0, 0.070000000298023224, 0.50999993085861206 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 0.69999992847442627, 0.69999992847442627, 0.99999994039535522 ]
+  }
+}

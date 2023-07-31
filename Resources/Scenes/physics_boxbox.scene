@@ -1,0 +1,291 @@
+{
+  "Objects" : 
+  [
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Angular Drag" : 0.0,
+          "Angular Velocity" : 0.0,
+          "Component Name" : "RigidBody",
+          "Drag" : 0.25,
+          "Gravity Scale" : 0.0,
+          "Inverse Inertia" : 0.0,
+          "Inverse Mass" : 0.0,
+          "Restitution" : 0.5,
+          "Time Scale" : 1.0,
+          "Velocity" : [ 0.0, 0.0 ]
+        },
+        {
+          "Active" : true,
+          "Component Name" : "BoxCollider",
+          "Height" : 1.0,
+          "Is Sensor" : false,
+          "Orientation" : 0.0,
+          "Position" : [ 0.0, 0.0 ],
+          "Width" : 9.0
+        }
+      ],
+      "ID" : 633,
+      "ObjName" : "Platform",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 0.0, -2.0, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "BoxCollider",
+          "Height" : 1.0,
+          "Is Sensor" : false,
+          "Orientation" : 0.0,
+          "Position" : [ 0.0, 0.0 ],
+          "Width" : 1.0
+        },
+        {
+          "Active" : true,
+          "Angular Drag" : 0.0,
+          "Angular Velocity" : 0.0,
+          "Component Name" : "RigidBody",
+          "Drag" : 0.25,
+          "Gravity Scale" : 1.0,
+          "Inverse Inertia" : 0.0,
+          "Inverse Mass" : 1.0,
+          "Restitution" : 0.5,
+          "Time Scale" : 1.0,
+          "Velocity" : [ 0.0, 0.0 ]
+        }
+      ],
+      "ID" : 634,
+      "ObjName" : "Box",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ -3.0, 1.0, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "BoxCollider",
+          "Height" : 1.0,
+          "Is Sensor" : false,
+          "Orientation" : 0.0,
+          "Position" : [ 0.0, 0.0 ],
+          "Width" : 1.0
+        },
+        {
+          "Active" : true,
+          "Angular Drag" : 0.0,
+          "Angular Velocity" : 0.0,
+          "Component Name" : "RigidBody",
+          "Drag" : 0.25,
+          "Gravity Scale" : 1.0,
+          "Inverse Inertia" : 0.0,
+          "Inverse Mass" : 1.0,
+          "Restitution" : 0.5,
+          "Time Scale" : 1.0,
+          "Velocity" : [ 0.0, 0.0 ]
+        }
+      ],
+      "ID" : 635,
+      "ObjName" : "Box",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 0.0, 1.0, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 15.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "BoxCollider",
+          "Height" : 1.0,
+          "Is Sensor" : false,
+          "Orientation" : 0.0,
+          "Position" : [ 0.0, 0.0 ],
+          "Width" : 1.0
+        },
+        {
+          "Active" : true,
+          "Angular Drag" : 0.0,
+          "Angular Velocity" : 0.0,
+          "Component Name" : "RigidBody",
+          "Drag" : 0.25,
+          "Gravity Scale" : 1.0,
+          "Inverse Inertia" : 0.0,
+          "Inverse Mass" : 1.0,
+          "Restitution" : 0.5,
+          "Time Scale" : 1.0,
+          "Velocity" : [ 0.0, 0.0 ]
+        }
+      ],
+      "ID" : 636,
+      "ObjName" : "Box",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 3.0, 1.0, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 30.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "BoxCollider",
+          "Height" : 1.0,
+          "Is Sensor" : false,
+          "Orientation" : 0.0,
+          "Position" : [ 0.0, 0.0 ],
+          "Width" : 1.0
+        },
+        {
+          "Active" : true,
+          "Angular Drag" : 0.0,
+          "Angular Velocity" : 0.0,
+          "Component Name" : "RigidBody",
+          "Drag" : 0.25,
+          "Gravity Scale" : 1.0,
+          "Inverse Inertia" : 0.0,
+          "Inverse Mass" : 1.0,
+          "Restitution" : 0.5,
+          "Time Scale" : 1.0,
+          "Velocity" : [ 0.0, 0.0 ]
+        }
+      ],
+      "ID" : 637,
+      "ObjName" : "Box",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ -1.5, 2.5, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 45.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "BoxCollider",
+          "Height" : 1.0,
+          "Is Sensor" : false,
+          "Orientation" : 0.0,
+          "Position" : [ 0.0, 0.0 ],
+          "Width" : 1.0
+        },
+        {
+          "Active" : true,
+          "Angular Drag" : 0.0,
+          "Angular Velocity" : 0.0,
+          "Component Name" : "RigidBody",
+          "Drag" : 0.25,
+          "Gravity Scale" : 1.0,
+          "Inverse Inertia" : 0.0,
+          "Inverse Mass" : 1.0,
+          "Restitution" : 0.5,
+          "Time Scale" : 1.0,
+          "Velocity" : [ 0.0, 0.0 ]
+        }
+      ],
+      "ID" : 638,
+      "ObjName" : "Box",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 1.5, 2.5, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 60.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "BoxCollider",
+          "Height" : 1.0,
+          "Is Sensor" : false,
+          "Orientation" : 0.0,
+          "Position" : [ 0.0, 0.0 ],
+          "Width" : 1.0
+        },
+        {
+          "Active" : true,
+          "Angular Drag" : 0.0,
+          "Angular Velocity" : 0.0,
+          "Component Name" : "RigidBody",
+          "Drag" : 0.25,
+          "Gravity Scale" : 1.0,
+          "Inverse Inertia" : 0.0,
+          "Inverse Mass" : 1.0,
+          "Restitution" : 0.5,
+          "Time Scale" : 1.0,
+          "Velocity" : [ 0.0, 0.0 ]
+        }
+      ],
+      "ID" : 639,
+      "ObjName" : "Box",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 0.0, 4.0, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 75.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    }
+  ],
+  "PhysicsManager" : 
+  {
+    "Collision" : true,
+    "DebugDraw" : "11111111",
+    "Gravity" : [ 0.0, -2.0 ]
+  },
+  "SceneName" : "physics_boxbox",
+  "SoundManager" : 
+  {
+    "MasterMute" : false,
+    "MasterPause" : false,
+    "MasterVolume" : 0.0
+  }
+}

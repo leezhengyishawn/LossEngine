@@ -1,0 +1,59 @@
+{
+  "Active" : true,
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "SpriteRenderer",
+      "colorW" : 1.0,
+      "colorX" : 1.0,
+      "colorY" : 1.0,
+      "colorZ" : 1.0,
+      "maxCurrentX" : 1,
+      "maxCurrentY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : "Boss_Level_Spike_1"
+    },
+    {
+      "Active" : true,
+      "Angular Drag" : 0.0,
+      "Angular Velocity" : 0.0,
+      "Component Name" : "RigidBody",
+      "Drag" : 0.0,
+      "Dynamic Friction" : 0.0,
+      "Gravity Scale" : 1.0,
+      "Inverse Inertia" : 0.0,
+      "Inverse Mass" : 1.0,
+      "Restitution" : 0.0,
+      "Static Friction" : 0.0,
+      "Time Scale" : 1.0,
+      "Velocity" : [ 0.0, 0.0 ]
+    },
+    {
+      "Active" : true,
+      "Component Name" : "Breakable",
+      "spawnerObject" : null
+    },
+    {
+      "Active" : true,
+      "Component Name" : "BoxCollider",
+      "Height" : 1.0,
+      "Is Sensor" : true,
+      "Orientation" : 0.0,
+      "Position" : [ 0.0, -0.10000000149011612 ],
+      "Width" : 0.75
+    }
+  ],
+  "ID" : 1094,
+  "ObjName" : "Dropping_Spike_SpiderBoss",
+  "Tag" : "IgnoreCollision",
+  "Transform" : 
+  {
+    "Active" : true,
+    "Component Name" : "Transform",
+    "Position" : [ 0.0, 0.0, 0.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.5, 1.5, 1.0 ]
+  }
+}

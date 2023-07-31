@@ -1,0 +1,206 @@
+{
+  "Objects" : 
+  [
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : true,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : true,
+          "Priority" : 0,
+          "Source Name" : "casual_killer",
+          "Volume" : 1.0
+        },
+        {
+          "Active" : true,
+          "Component Name" : "CircleRenderer",
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0
+        }
+      ],
+      "ID" : 3,
+      "ObjName" : "Source1",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 9.895359992980957, 10.056225776672363, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : true,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : true,
+          "Priority" : 0,
+          "Source Name" : "BGM_Main_Game",
+          "Volume" : 1.0
+        },
+        {
+          "Active" : true,
+          "Component Name" : "CircleRenderer",
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0
+        }
+      ],
+      "ID" : 4,
+      "ObjName" : "Source2",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ -9.9758081436157227, -10.01600170135498, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : true,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : true,
+          "Priority" : 0,
+          "Source Name" : "BGM_Main_Menu",
+          "Volume" : 1.0
+        },
+        {
+          "Active" : true,
+          "Component Name" : "CircleRenderer",
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0
+        }
+      ],
+      "ID" : 5,
+      "ObjName" : "Source3",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 10.136709213256836, -10.015999794006348, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : true,
+          "Loop" : true,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : true,
+          "Priority" : 0,
+          "Source Name" : "shoot",
+          "Volume" : 1.0
+        },
+        {
+          "Active" : true,
+          "Component Name" : "CircleRenderer",
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0
+        }
+      ],
+      "ID" : 6,
+      "ObjName" : "Source4",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ -9.8953590393066406, 10.015999794006348, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Added To Manager" : true,
+          "Component Name" : "AudioListener",
+          "In Used" : true
+        },
+        {
+          "Active" : true,
+          "Component Name" : "Camera",
+          "camera_mode" : 0,
+          "ortho_far" : 1000.0,
+          "ortho_height" : 1.0,
+          "ortho_near" : -1.0,
+          "ortho_width" : 1.0,
+          "ortho_xratio" : 1.0,
+          "ortho_yratio" : 1.0,
+          "ortho_zoom" : -16.0,
+          "perspec_far" : 1000.0,
+          "perspec_fov" : 30.0,
+          "perspec_height" : 1.0,
+          "perspec_near" : -1.0,
+          "perspec_width" : 1.0
+        }
+      ],
+      "ID" : 7,
+      "ObjName" : "Listener",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 0.0, 0.0, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    }
+  ],
+  "PhysicsManager" : 
+  {
+    "Collision" : true,
+    "DebugDraw" : "11111111",
+    "Gravity" : [ 0.0, -1.0 ]
+  },
+  "SceneName" : "Sound",
+  "SoundManager" : 
+  {
+    "MasterMute" : false,
+    "MasterPause" : false,
+    "MasterVolume" : 1.0
+  }
+}

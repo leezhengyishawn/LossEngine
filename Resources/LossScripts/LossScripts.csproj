@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FC40188B-96F1-42A0-9404-1387B399A27B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LossScripts</RootNamespace>
+    <AssemblyName>LossScripts</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>x64</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>x64</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="LossScriptsTypes">
+      <HintPath>../../Release/LossScriptsTypes.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Boss\BossStartCollider.cs" />
+    <Compile Include="Boss\SpiderBlink.cs" />
+    <Compile Include="Boss\SpiderBoss.cs" />
+    <Compile Include="Boss\SpiderEye.cs" />
+    <Compile Include="Boss\SpiderEyeCollider.cs" />
+    <Compile Include="Boss\SpiderHead.cs" />
+    <Compile Include="Boss\SpiderHeadDeathImpulse.cs" />
+    <Compile Include="Boss\SpiderNames.cs" />
+    <Compile Include="Boss\SpiderNamesFade.cs" />
+    <Compile Include="Boss\SpiderShadow.cs" />
+    <Compile Include="Characters\Dialogue.cs" />
+    <Compile Include="Characters\DialogueEnding.cs" />
+    <Compile Include="Characters\EnemyBehaviour.cs" />
+    <Compile Include="Characters\EnemyCheckers.cs" />
+    <Compile Include="Characters\EnemyEggBehaviour.cs" />
+    <Compile Include="Characters\EnemyMushroom.cs" />
+    <Compile Include="Characters\EnemyWebBehaviour.cs" />
+    <Compile Include="Characters\FatherBehaviour.cs" />
+    <Compile Include="Characters\FatherChecker.cs" />
+    <Compile Include="Characters\PlayerBehaviour.cs" />
+    <Compile Include="Characters\PlayerCheckers.cs" />
+    <Compile Include="Characters\PlayerTongueCollision.cs" />
+    <Compile Include="Props\Blockage.cs" />
+    <Compile Include="Props\DeathCurtain.cs" />
+    <Compile Include="Props\SpikeShake.cs" />
+    <Compile Include="Props\TongueInteractive.cs" />
+    <Compile Include="Scene\CheatCodes.cs" />
+    <Compile Include="Scene\CutsceneEscape.cs" />
+    <Compile Include="Scene\Fadeout.cs" />
+    <Compile Include="Props\Breakable.cs" />
+    <Compile Include="Props\CheckPoint.cs" />
+    <Compile Include="Props\Dandelion.cs" />
+    <Compile Include="Props\DandeParticle.cs" />
+    <Compile Include="Props\DandeSpawn.cs" />
+    <Compile Include="Props\HitSpawner.cs" />
+    <Compile Include="Props\Mushroom.cs" />
+    <Compile Include="Props\RespawnPoint.cs" />
+    <Compile Include="Scene\BGMController.cs" />
+    <Compile Include="Scene\CameraBehaviour.cs" />
+    <Compile Include="Scene\CutsceneEnding.cs" />
+    <Compile Include="Scene\CutsceneFather.cs" />
+    <Compile Include="Scene\MainMenuCanvas.cs" />
+    <Compile Include="Scene\MouseController.cs" />
+    <Compile Include="Scene\PauseController.cs" />
+    <Compile Include="Scene\PauseMenuCanvas.cs" />
+    <Compile Include="Scene\SplashScreenLogic.cs" />
+    <Compile Include="Utility\BoulderFall.cs" />
+    <Compile Include="Utility\BoulderHole.cs" />
+    <Compile Include="Utility\BoulderTrigger.cs" />
+    <Compile Include="Utility\BouncingMush.cs" />
+    <Compile Include="Utility\Breathing.cs" />
+    <Compile Include="Utility\CameraOffset.cs" />
+    <Compile Include="Utility\CameraTrigger.cs" />
+    <Compile Include="Utility\CameraZone.cs" />
+    <Compile Include="Utility\EscapeTransition.cs" />
+    <Compile Include="Utility\EventTrigger.cs" />
+    <Compile Include="Utility\GodRays.cs" />
+    <Compile Include="Utility\Lerp.cs" />
+    <Compile Include="Utility\Lighting.cs" />
+    <Compile Include="Utility\MenuButton.cs" />
+    <Compile Include="Utility\RoomTransition.cs" />
+    <Compile Include="Utility\RotatePoint.cs" />
+    <Compile Include="Utility\ScreenShake.cs" />
+    <Compile Include="Utility\Shockwave.cs" />
+    <Compile Include="Utility\SpikeSpawner.cs" />
+    <Compile Include="Utility\SpikeTrigger.cs" />
+    <Compile Include="Utility\TimedDestroy.cs" />
+    <Compile Include="Utility\TutorialCheatCodes.cs" />
+    <Compile Include="Utility\Tween.cs" />
+    <Compile Include="Utility\Wobble.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <SolutionDir Condition="'$(SolutionDir)'=='' or '$(SolutionDir)'=='*Undefined*'">..\$([System.IO.Path]::GetDirectoryName($(MSBuildProjectDirectory)))\</SolutionDir>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,28 @@
+{
+  "Key Frames" : 
+  [
+    {
+      "Duration" : 0.25,
+      "Frame" : [ 1, 1 ],
+      "Position" : [ 0.0, 0.0, 0.0 ],
+      "Rotation" : [ 0.0, 0.0, 0.0 ],
+      "Scale" : [ 1.0, 1.0, 0.0 ]
+    },
+    {
+      "Duration" : 0.25,
+      "Frame" : [ 4, 1 ],
+      "Position" : [ 1.0, 0.0, 0.0 ],
+      "Rotation" : [ 0.0, 0.0, 90.0 ],
+      "Scale" : [ 2.0, 2.0, 0.0 ]
+    },
+    {
+      "Duration" : 0.25,
+      "Frame" : [ 1, 1 ],
+      "Position" : [ 0.5, 0.5, 0.0 ],
+      "Rotation" : [ 0.0, 0.0, 0.0 ],
+      "Scale" : [ 1.0, 1.0, 0.0 ]
+    }
+  ],
+  "Max Frame" : [ 0, 0 ],
+  "Texture" : ""
+}

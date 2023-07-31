@@ -1,0 +1,98 @@
+{
+  "Active" : true,
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "ParticleEmitter",
+      "Curve" : 
+      {
+        "Control Points" : 
+        [
+          {
+            "Point" : [ 0.0, 0.0 ],
+            "Tangent Left" : [ 0.0, 0.0 ],
+            "Tangent Right" : [ 0.10000000149011612, 0.10000000149011612 ]
+          },
+          {
+            "Point" : [ 1.0, 1.0 ],
+            "Tangent Left" : [ -0.10000000149011612, -0.10000000149011612 ],
+            "Tangent Right" : [ 0.0, 0.0 ]
+          }
+        ]
+      },
+      "EndColorMaxW" : 0.0,
+      "EndColorMaxX" : 0.17108803987503052,
+      "EndColorMaxY" : 0.33363935351371765,
+      "EndColorMaxZ" : 0.39215683937072754,
+      "EndColorMinW" : 0.0,
+      "EndColorMinX" : 0.15150424838066101,
+      "EndColorMinY" : 0.47549021244049072,
+      "EndColorMinZ" : 0.456432044506073,
+      "InterpolateMethod" : 0,
+      "Particle Burst" : 
+      [
+        {
+          "BurstCount" : 6,
+          "BurstTime" : 0.0
+        }
+      ],
+      "ParticleLinesCenterX" : 0.0,
+      "ParticleLinesCenterY" : 0.0,
+      "StartColorMaxW" : 0.51764708757400513,
+      "StartColorMaxX" : 0.059472307562828064,
+      "StartColorMaxY" : 0.30487513542175293,
+      "StartColorMaxZ" : 0.36764705181121826,
+      "StartColorMinW" : 0.73333334922790527,
+      "StartColorMinX" : 0.087226070463657379,
+      "StartColorMinY" : 0.30963045358657837,
+      "StartColorMinZ" : 0.32352942228317261,
+      "circleRadius" : 0.0,
+      "coneAngle" : 45.0,
+      "constForceMaxX" : 0.0,
+      "constForceMaxY" : -9.8000001907348633,
+      "constForceMinX" : 0.0,
+      "constForceMinY" : -9.8000001907348633,
+      "duration" : 0.0,
+      "edgeLength" : 0.10000000149011612,
+      "emitterMode" : 1,
+      "finalScaleMax" : 1.6000000238418579,
+      "finalScaleMin" : 1.0,
+      "lifeTimeMax" : 0.5,
+      "lifeTimeMin" : 0.20000000298023224,
+      "looping" : false,
+      "particlePerSecond" : 0.0,
+      "rotateToVelocity" : false,
+      "rotationMax" : 25.0,
+      "rotationMin" : -25.0,
+      "rotationSpeedMax" : 0.0,
+      "rotationSpeedMin" : 0.0,
+      "scaleMax" : 0.80000001192092896,
+      "scaleMin" : 0.5,
+      "startSpeedMax" : 6.0,
+      "startSpeedMin" : 6.0,
+      "texture" : "Dust_Particles"
+    },
+    {
+      "Active" : true,
+      "Component Name" : "TimedDestroy",
+      "lifetime" : 
+      {
+        "Field Name" : "lifetime",
+        "Field Type" : 5,
+        "Field Value" : 1.0
+      }
+    }
+  ],
+  "ID" : 2401,
+  "ObjName" : "DustBoss",
+  "Tag" : "None",
+  "Transform" : 
+  {
+    "Active" : true,
+    "Component Name" : "Transform",
+    "Position" : [ 0.0, 0.0, 0.10000000149011612 ],
+    "Rotation" : [ 0.0, 0.0, 90.25 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

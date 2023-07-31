@@ -1,0 +1,21 @@
+{
+  "Component Names": [
+    "Transform",
+    "BoxRenderer",
+    "CircleRenderer",
+    "SpriteRenderer",
+    "TextRenderer",
+    "BoxCollider",
+    "CircleCollider",
+    "RigidBody",
+    "Animator",
+    "Camera",
+    "TileMap",
+    "AudioSource",
+    "ParticleEmitter",
+    "StateMachine",
+    "AudioListener",
+    "UIButton",
+    "LightSource"
+  ]
+}

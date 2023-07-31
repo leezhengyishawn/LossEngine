@@ -1,0 +1,88 @@
+{
+  "Active" : true,
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "ParticleEmitter",
+      "Curve" : 
+      {
+        "Control Points" : 
+        [
+          {
+            "Point" : [ 0.0, 0.0 ],
+            "Tangent Left" : [ 0.0, 0.0 ],
+            "Tangent Right" : [ 0.10000000149011612, 0.10000000149011612 ]
+          },
+          {
+            "Point" : [ 1.0, 1.0 ],
+            "Tangent Left" : [ -0.10000000149011612, -0.10000000149011612 ],
+            "Tangent Right" : [ 0.0, 0.0 ]
+          }
+        ]
+      },
+      "EndColorMaxW" : 0.11764705926179886,
+      "EndColorMaxX" : 1.0,
+      "EndColorMaxY" : 1.0,
+      "EndColorMaxZ" : 1.0,
+      "EndColorMinW" : 0.0,
+      "EndColorMinX" : 1.0,
+      "EndColorMinY" : 1.0,
+      "EndColorMinZ" : 1.0,
+      "InterpolateMethod" : 0,
+      "Particle Burst" : 
+      [
+        {
+          "BurstCount" : 5,
+          "BurstTime" : 0.0
+        }
+      ],
+      "ParticleLinesCenterX" : 0.0,
+      "ParticleLinesCenterY" : 0.0,
+      "StartColorMaxW" : 1.0,
+      "StartColorMaxX" : 1.0,
+      "StartColorMaxY" : 1.0,
+      "StartColorMaxZ" : 1.0,
+      "StartColorMinW" : 0.87450981140136719,
+      "StartColorMinX" : 1.0,
+      "StartColorMinY" : 1.0,
+      "StartColorMinZ" : 1.0,
+      "circleRadius" : 0.20000000298023224,
+      "coneAngle" : 0.0,
+      "constForceMaxX" : -0.5,
+      "constForceMaxY" : -0.20000000298023224,
+      "constForceMinX" : 0.5,
+      "constForceMinY" : 0.0,
+      "duration" : 1.0,
+      "edgeLength" : 0.0,
+      "emitterMode" : 2,
+      "finalScaleMax" : 0.0,
+      "finalScaleMin" : 0.0,
+      "lifeTimeMax" : 2.0,
+      "lifeTimeMin" : 0.5,
+      "looping" : false,
+      "particlePerSecond" : 3.0,
+      "rotateToVelocity" : true,
+      "rotationMax" : 360.0,
+      "rotationMin" : 0.0,
+      "rotationSpeedMax" : 0.0,
+      "rotationSpeedMin" : 0.0,
+      "scaleMax" : 0.20000000298023224,
+      "scaleMin" : 0.10000000149011612,
+      "startSpeedMax" : 0.20000000298023224,
+      "startSpeedMin" : 0.10000000149011612,
+      "texture" : "web_particle_2"
+    }
+  ],
+  "ID" : 447,
+  "ObjName" : "WebParticle3",
+  "Tag" : "None",
+  "Transform" : 
+  {
+    "Active" : true,
+    "Component Name" : "Transform",
+    "Position" : [ -0.62960433959960938, 1.2786334753036499, 0.50999993085861206 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 0.69999992847442627, 0.69999992847442627, 1.0 ]
+  }
+}

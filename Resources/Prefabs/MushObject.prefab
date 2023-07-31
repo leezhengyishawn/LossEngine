@@ -1,0 +1,125 @@
+{
+  "Active" : true,
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "SpriteRenderer",
+      "colorW" : 1.0,
+      "colorX" : 1.0,
+      "colorY" : 1.0,
+      "colorZ" : 1.0,
+      "maxCurrentX" : 1,
+      "maxCurrentY" : 1,
+      "maxFrameX" : 8,
+      "maxFrameY" : 4,
+      "textureName" : "Cavern_Floating_Mushroom"
+    },
+    {
+      "Active" : true,
+      "Angular Drag" : 0.0,
+      "Angular Velocity" : 0.0,
+      "Component Name" : "RigidBody",
+      "Drag" : 0.0,
+      "Dynamic Friction" : 0.0,
+      "Gravity Scale" : 0.05000000074505806,
+      "Inverse Inertia" : 0.0,
+      "Inverse Mass" : 999.99993896484375,
+      "Restitution" : 0.0,
+      "Static Friction" : 0.0,
+      "Time Scale" : 1.0,
+      "Velocity" : [ 0.0, 0.0 ]
+    },
+    {
+      "Active" : true,
+      "Affect Transform" : false,
+      "Animate Count" : -1,
+      "Component Name" : "Animator",
+      "File" : "BGGrassAnim",
+      "Speed" : 1.0,
+      "Starting Delay" : 0.0
+    },
+    {
+      "Active" : true,
+      "Component Name" : "Dandelion",
+      "isCave" : 
+      {
+        "Field Name" : "isCave",
+        "Field Type" : 0,
+        "Field Value" : true
+      },
+      "myDandeSpawner" : null
+    },
+    {
+      "Active" : true,
+      "Component Name" : "BoxCollider",
+      "Height" : 0.80000001192092896,
+      "Is Sensor" : true,
+      "Orientation" : 0.0,
+      "Position" : [ 0.0, 0.0 ],
+      "Width" : 0.80000001192092896
+    },
+    {
+      "Active" : true,
+      "Component Name" : "TongueInteractive"
+    },
+    {
+      "Active" : true,
+      "Component Name" : "ParticleEmitter",
+      "EndColorMaxW" : 1.0,
+      "EndColorMaxX" : 1.0,
+      "EndColorMaxY" : 1.0,
+      "EndColorMaxZ" : 1.0,
+      "EndColorMinW" : 1.0,
+      "EndColorMinX" : 1.0,
+      "EndColorMinY" : 1.0,
+      "EndColorMinZ" : 1.0,
+      "ParticleLinesCenterX" : 0.0,
+      "ParticleLinesCenterY" : 0.0,
+      "StartColorMaxW" : 0.0,
+      "StartColorMaxX" : 0.72549021244049072,
+      "StartColorMaxY" : 1.0,
+      "StartColorMaxZ" : 0.75816947221755981,
+      "StartColorMinW" : 0.0,
+      "StartColorMinX" : 1.0,
+      "StartColorMinY" : 0.98934972286224365,
+      "StartColorMinZ" : 0.64215683937072754,
+      "circleRadius" : 0.0,
+      "coneAngle" : 0.0,
+      "constForceMaxX" : 0.30000001192092896,
+      "constForceMaxY" : 0.0,
+      "constForceMinX" : -0.30000001192092896,
+      "constForceMinY" : 0.0,
+      "duration" : 1.0,
+      "edgeLength" : 0.30000001192092896,
+      "emitterMode" : 3,
+      "finalScaleMax" : 0.20000000298023224,
+      "finalScaleMin" : 0.10000000149011612,
+      "lifeTimeMax" : 1.0,
+      "lifeTimeMin" : 0.5,
+      "looping" : true,
+      "particlePerSecond" : 3.0,
+      "rotateToVelocity" : false,
+      "rotationMax" : 60.0,
+      "rotationMin" : 30.0,
+      "rotationSpeedMax" : 0.0,
+      "rotationSpeedMin" : 0.0,
+      "scaleMax" : 0.30000001192092896,
+      "scaleMin" : 0.15000000596046448,
+      "startSpeedMax" : 0.0,
+      "startSpeedMin" : 0.0,
+      "texture" : "Spike_Interactable_Particle"
+    }
+  ],
+  "ID" : 25660,
+  "ObjName" : "MushObject",
+  "Tag" : "SlingPoint",
+  "Transform" : 
+  {
+    "Active" : true,
+    "Component Name" : "Transform",
+    "Position" : [ 0.0, 2.0219802856445313, 0.50999999046325684 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 0.69999998807907104, 0.69999998807907104, 1.0 ]
+  }
+}

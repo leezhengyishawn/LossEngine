@@ -1,0 +1,47 @@
+{
+  "Active" : true,
+  "Child" : 
+  [
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "SpriteRenderer",
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "maxCurrentX" : 1,
+          "maxCurrentY" : 1,
+          "maxFrameX" : 1,
+          "maxFrameY" : 1,
+          "textureName" : "web_string_string"
+        }
+      ],
+      "ID" : 1649,
+      "ObjName" : "SpiderWebSprite",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 0.014999999664723873, -0.5, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.079999998211860657, 1.0, 1.0 ]
+      }
+    }
+  ],
+  "ID" : 1648,
+  "ObjName" : "SpiderWebString",
+  "Tag" : "None",
+  "Transform" : 
+  {
+    "Active" : true,
+    "Component Name" : "Transform",
+    "Position" : [ 0.0, 0.0, 0.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

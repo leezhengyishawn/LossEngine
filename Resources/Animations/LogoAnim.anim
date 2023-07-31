@@ -1,0 +1,63 @@
+{
+  "Key Frames" : 
+  [
+    {
+      "Duration" : 0.125,
+      "Frame" : [ 1, 1 ],
+      "Position" : [ 0.0, 0.0, 0.0 ],
+      "Rotation" : [ 0.0, 0.0, 0.0 ],
+      "Scale" : [ 1.0, 1.0, 1.0 ]
+    },
+    {
+      "Duration" : 0.125,
+      "Frame" : [ 2, 1 ],
+      "Position" : [ 0.0, 0.0, 0.0 ],
+      "Rotation" : [ 0.0, 0.0, 0.0 ],
+      "Scale" : [ 1.0, 1.0, 1.0 ]
+    },
+    {
+      "Duration" : 0.125,
+      "Frame" : [ 3, 1 ],
+      "Position" : [ 0.0, 0.0, 0.0 ],
+      "Rotation" : [ 0.0, 0.0, 0.0 ],
+      "Scale" : [ 1.0, 1.0, 1.0 ]
+    },
+    {
+      "Duration" : 0.125,
+      "Frame" : [ 1, 2 ],
+      "Position" : [ 0.0, 0.0, 0.0 ],
+      "Rotation" : [ 0.0, 0.0, 0.0 ],
+      "Scale" : [ 1.0, 1.0, 1.0 ]
+    },
+    {
+      "Duration" : 0.125,
+      "Frame" : [ 2, 2 ],
+      "Position" : [ 0.0, 0.0, 0.0 ],
+      "Rotation" : [ 0.0, 0.0, 0.0 ],
+      "Scale" : [ 1.0, 1.0, 1.0 ]
+    },
+    {
+      "Duration" : 0.125,
+      "Frame" : [ 3, 2 ],
+      "Position" : [ 0.0, 0.0, 0.0 ],
+      "Rotation" : [ 0.0, 0.0, 0.0 ],
+      "Scale" : [ 1.0, 1.0, 1.0 ]
+    },
+    {
+      "Duration" : 0.125,
+      "Frame" : [ 1, 3 ],
+      "Position" : [ 0.0, 0.0, 0.0 ],
+      "Rotation" : [ 0.0, 0.0, 0.0 ],
+      "Scale" : [ 1.0, 1.0, 1.0 ]
+    },
+    {
+      "Duration" : 0.125,
+      "Frame" : [ 2, 3 ],
+      "Position" : [ 0.0, 0.0, 0.0 ],
+      "Rotation" : [ 0.0, 0.0, 0.0 ],
+      "Scale" : [ 1.0, 1.0, 1.0 ]
+    }
+  ],
+  "Max Frame" : [ 3, 3 ],
+  "Texture" : "Lost_Cause_Animation"
+}

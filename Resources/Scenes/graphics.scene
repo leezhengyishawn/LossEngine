@@ -1,0 +1,400 @@
+{
+  "LightManager" : 
+  {
+    "EndRange" : [ 0.0 ],
+    "Multiplicative" : false,
+    "StartRange" : [ -1.1920928955078125e-07 ]
+  },
+  "Objects" : 
+  [
+    {
+      "Active" : true,
+      "Child" : 
+      [
+        {
+          "Active" : true,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "SpriteRenderer",
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "maxCurrentX" : 1,
+              "maxCurrentY" : 1,
+              "maxFrameX" : 1,
+              "maxFrameY" : 1,
+              "textureName" : "GrassLeft"
+            }
+          ],
+          "ID" : 30,
+          "ObjName" : "Child Obj",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : false,
+            "Component Name" : "Transform",
+            "Position" : [ -3.0, 0.0, 0.0 ],
+            "Rotation" : [ 0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        },
+        {
+          "Active" : true,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "SpriteRenderer",
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "maxCurrentX" : 1,
+              "maxCurrentY" : 1,
+              "maxFrameX" : 1,
+              "maxFrameY" : 1,
+              "textureName" : "GrassStart"
+            }
+          ],
+          "ID" : 31,
+          "ObjName" : "Child Obj",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : false,
+            "Component Name" : "Transform",
+            "Position" : [ -2.0, 0.0, 0.0 ],
+            "Rotation" : [ 0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        },
+        {
+          "Active" : true,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "SpriteRenderer",
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "maxCurrentX" : 1,
+              "maxCurrentY" : 1,
+              "maxFrameX" : 1,
+              "maxFrameY" : 1,
+              "textureName" : "GrassMiddle1"
+            }
+          ],
+          "ID" : 32,
+          "ObjName" : "Child Obj",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : false,
+            "Component Name" : "Transform",
+            "Position" : [ -1.0, 0.0, 0.0 ],
+            "Rotation" : [ 0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        },
+        {
+          "Active" : true,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "SpriteRenderer",
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "maxCurrentX" : 1,
+              "maxCurrentY" : 1,
+              "maxFrameX" : 1,
+              "maxFrameY" : 1,
+              "textureName" : "GrassMiddle2"
+            }
+          ],
+          "ID" : 33,
+          "ObjName" : "Child Obj",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : false,
+            "Component Name" : "Transform",
+            "Position" : [ 0.0, 0.0, 0.0 ],
+            "Rotation" : [ 0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        },
+        {
+          "Active" : true,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "SpriteRenderer",
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "maxCurrentX" : 1,
+              "maxCurrentY" : 1,
+              "maxFrameX" : 1,
+              "maxFrameY" : 1,
+              "textureName" : "GrassEnd"
+            }
+          ],
+          "ID" : 34,
+          "ObjName" : "Child Obj",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : false,
+            "Component Name" : "Transform",
+            "Position" : [ 1.0, 0.0, 0.0 ],
+            "Rotation" : [ 0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        },
+        {
+          "Active" : true,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "SpriteRenderer",
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "maxCurrentX" : 1,
+              "maxCurrentY" : 1,
+              "maxFrameX" : 1,
+              "maxFrameY" : 1,
+              "textureName" : "GrassRight"
+            }
+          ],
+          "ID" : 35,
+          "ObjName" : "Child Obj",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : false,
+            "Component Name" : "Transform",
+            "Position" : [ 2.0, 0.0, 0.0 ],
+            "Rotation" : [ 0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        }
+      ],
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "SpriteRenderer",
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "maxCurrentX" : 1,
+          "maxCurrentY" : 1,
+          "maxFrameX" : 1,
+          "maxFrameY" : 1,
+          "textureName" : "Crate"
+        }
+      ],
+      "ID" : 29,
+      "ObjName" : "Parent Obj",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : false,
+        "Component Name" : "Transform",
+        "Position" : [ 0.0, 0.0, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "SpriteRenderer",
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "maxCurrentX" : 1,
+          "maxCurrentY" : 1,
+          "maxFrameX" : 1,
+          "maxFrameY" : 1,
+          "textureName" : "Forests_BG"
+        }
+      ],
+      "ID" : 36,
+      "ObjName" : "Forest BG",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : false,
+        "Component Name" : "Transform",
+        "Position" : [ 0.0, 0.0, -2.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 14.0, 7.0, 0.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "SpriteRenderer",
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "maxCurrentX" : 1,
+          "maxCurrentY" : 1,
+          "maxFrameX" : 1,
+          "maxFrameY" : 1,
+          "textureName" : "Lilipad_BG_1"
+        },
+        {
+          "Active" : true,
+          "Component Name" : "DummyScript",
+          "obj" : null,
+          "rigid" : null
+        }
+      ],
+      "ID" : 37,
+      "ObjName" : "Lilypad BG",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : false,
+        "Component Name" : "Transform",
+        "Position" : [ 0.0, 0.0, -1.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 14.0, 7.0, 0.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "TextRenderer",
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "font" : "COOPBL",
+          "text" : "Example Text"
+        }
+      ],
+      "ID" : 38,
+      "ObjName" : "Example Text",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : false,
+        "Component Name" : "Transform",
+        "Position" : [ 0.0, -2.25, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "ID" : 39,
+      "ObjName" : "SceneChangeScript",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 0.0, 0.0, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Camera",
+          "camera_mode" : 1,
+          "ortho_far" : 1000.0,
+          "ortho_height" : 1.0,
+          "ortho_near" : -1.0,
+          "ortho_width" : 1.0,
+          "ortho_xratio" : 1.0,
+          "ortho_yratio" : 1.0,
+          "ortho_zoom" : 1.0,
+          "perspec_far" : 1000.0,
+          "perspec_fov" : 30.0,
+          "perspec_height" : 0.89999997615814209,
+          "perspec_near" : -1.0,
+          "perspec_width" : 1.6000000238418579
+        }
+      ],
+      "ID" : 40,
+      "ObjName" : "NewGameObject",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 0.0, 0.0, 12.625 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    }
+  ],
+  "PhysicsManager" : 
+  {
+    "Collision" : true,
+    "DebugDraw" : "11111111",
+    "Gravity" : [ 0.0, 0.0 ]
+  },
+  "SceneName" : "graphics",
+  "SceneRenderer" : 
+  {
+    "StartPasses" : 
+    [
+      {
+        "EndRange" : 0.0,
+        "PassName" : "New Start Pass",
+        "PassType" : 0,
+        "StartRange" : 0.0,
+        "SubPass" : 
+        [
+          {
+            "PassName" : "New Single Pass",
+            "PassType" : 1,
+            "ShaderMaterial" : "2DDynamicLightingShader"
+          }
+        ],
+        "SubPasses" : 
+        [
+          {
+            "PassName" : "New Single Pass",
+            "PassType" : 1,
+            "ShaderMaterial" : "2DDynamicLightingShader"
+          }
+        ]
+      }
+    ]
+  }
+}

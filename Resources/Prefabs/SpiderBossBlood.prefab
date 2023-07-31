@@ -1,0 +1,49 @@
+{
+  "Active" : true,
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "SpriteRenderer",
+      "colorW" : 1.0,
+      "colorX" : 1.0,
+      "colorY" : 1.0,
+      "colorZ" : 1.0,
+      "maxCurrentX" : 1,
+      "maxCurrentY" : 1,
+      "maxFrameX" : 5,
+      "maxFrameY" : 3,
+      "textureName" : "Splatter_VFX"
+    },
+    {
+      "Active" : true,
+      "Affect Transform" : false,
+      "Animate Count" : 1,
+      "Component Name" : "Animator",
+      "File" : "BossSpiderBlood",
+      "Speed" : 1.0,
+      "Starting Delay" : 0.0
+    },
+    {
+      "Active" : true,
+      "Component Name" : "TimedDestroy",
+      "lifetime" : 
+      {
+        "Field Name" : "lifetime",
+        "Field Type" : 5,
+        "Field Value" : 0.34999999403953552
+      }
+    }
+  ],
+  "ID" : 567,
+  "ObjName" : "SpiderBossBlood",
+  "Tag" : "None",
+  "Transform" : 
+  {
+    "Active" : true,
+    "Component Name" : "Transform",
+    "Position" : [ 0.0, 0.0, 0.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 2.0, 2.0, 1.0 ]
+  }
+}

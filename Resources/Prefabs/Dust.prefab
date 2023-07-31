@@ -1,0 +1,87 @@
+{
+  "Active" : true,
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "ParticleEmitter",
+      "EndColorMaxW" : 0.0,
+      "EndColorMaxX" : 0.96078431606292725,
+      "EndColorMaxY" : 0.94117647409439087,
+      "EndColorMaxZ" : 0.91372549533843994,
+      "EndColorMinW" : 0.0,
+      "EndColorMinX" : 0.96470588445663452,
+      "EndColorMinY" : 0.9529411792755127,
+      "EndColorMinZ" : 0.92941176891326904,
+      "Particle Burst" : 
+      [
+        {
+          "BurstCount" : 6,
+          "BurstTime" : 0.0
+        }
+      ],
+      "ParticleLinesCenterX" : 0.0,
+      "ParticleLinesCenterY" : 0.0,
+      "StartColorMaxW" : 0.98823529481887817,
+      "StartColorMaxX" : 0.92156863212585449,
+      "StartColorMaxY" : 0.86666667461395264,
+      "StartColorMaxZ" : 0.80000001192092896,
+      "StartColorMinW" : 1.0,
+      "StartColorMinX" : 0.92549020051956177,
+      "StartColorMinY" : 0.86666667461395264,
+      "StartColorMinZ" : 0.81176471710205078,
+      "circleRadius" : 0.0,
+      "coneAngle" : 0.0,
+      "constForceMaxX" : 0.20000000298023224,
+      "constForceMaxY" : 0.60000002384185791,
+      "constForceMinX" : -0.20000000298023224,
+      "constForceMinY" : 0.10000000149011612,
+      "duration" : 0.0,
+      "edgeLength" : 0.10000000149011612,
+      "emitterMode" : 3,
+      "finalScaleMax" : 0.60000002384185791,
+      "finalScaleMin" : 0.40000000596046448,
+      "lifeTimeMax" : 0.5,
+      "lifeTimeMin" : 0.20000000298023224,
+      "looping" : false,
+      "particlePerSecond" : 0.0,
+      "rotateToVelocity" : false,
+      "rotationMax" : 25.0,
+      "rotationMin" : -25.0,
+      "rotationSpeedMax" : 0.0,
+      "rotationSpeedMin" : 0.0,
+      "scaleMax" : 0.40000000596046448,
+      "scaleMin" : 0.20000000298023224,
+      "startSpeedMax" : 0.0,
+      "startSpeedMin" : 0.0,
+      "texture" : "Dust_Particles"
+    },
+    {
+      "Active" : true,
+      "Component Name" : "DandeParticle",
+      "lifetimeDurationCurrent" : 
+      {
+        "Field Name" : "lifetimeDurationCurrent",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "lifetimeDurationSet" : 
+      {
+        "Field Name" : "lifetimeDurationSet",
+        "Field Type" : 5,
+        "Field Value" : 5.0
+      }
+    }
+  ],
+  "ID" : 14730,
+  "ObjName" : "Dust",
+  "Tag" : "None",
+  "Transform" : 
+  {
+    "Active" : true,
+    "Component Name" : "Transform",
+    "Position" : [ 0.0, -0.30000001192092896, 0.10000000149011612 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 3.0, 3.0, 1.0 ]
+  }
+}

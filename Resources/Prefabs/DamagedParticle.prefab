@@ -1,0 +1,87 @@
+{
+  "Active" : true,
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "ParticleEmitter",
+      "EndColorMaxW" : 0.0,
+      "EndColorMaxX" : 0.83823525905609131,
+      "EndColorMaxY" : 0.057525970041751862,
+      "EndColorMaxZ" : 0.057525970041751862,
+      "EndColorMinW" : 0.0,
+      "EndColorMinX" : 0.87745100259780884,
+      "EndColorMinY" : 0.27224239706993103,
+      "EndColorMinZ" : 0.086024604737758636,
+      "Particle Burst" : 
+      [
+        {
+          "BurstCount" : 15,
+          "BurstTime" : 0.0
+        }
+      ],
+      "ParticleLinesCenterX" : 0.0,
+      "ParticleLinesCenterY" : 0.0,
+      "StartColorMaxW" : 1.0,
+      "StartColorMaxX" : 0.98039215803146362,
+      "StartColorMaxY" : 0.85487484931945801,
+      "StartColorMaxZ" : 0.44694343209266663,
+      "StartColorMinW" : 1.0,
+      "StartColorMinX" : 1.0,
+      "StartColorMinY" : 0.92041528224945068,
+      "StartColorMinZ" : 0.54901957511901855,
+      "circleRadius" : 0.25,
+      "coneAngle" : 360.0,
+      "constForceMaxX" : 0.0,
+      "constForceMaxY" : 0.0,
+      "constForceMinX" : 0.0,
+      "constForceMinY" : 0.0,
+      "duration" : 0.0,
+      "edgeLength" : 0.0,
+      "emitterMode" : 2,
+      "finalScaleMax" : 0.0,
+      "finalScaleMin" : 0.0,
+      "lifeTimeMax" : 0.38999998569488525,
+      "lifeTimeMin" : 0.38999998569488525,
+      "looping" : false,
+      "particlePerSecond" : 0.0,
+      "rotateToVelocity" : true,
+      "rotationMax" : 0.0,
+      "rotationMin" : 0.0,
+      "rotationSpeedMax" : 0.0,
+      "rotationSpeedMin" : 0.0,
+      "scaleMax" : 0.69999998807907104,
+      "scaleMin" : 0.69999998807907104,
+      "startSpeedMax" : 0.5,
+      "startSpeedMin" : 0.5,
+      "texture" : "SparkleParticle"
+    },
+    {
+      "Active" : true,
+      "Component Name" : "DandeParticle",
+      "lifetimeDurationCurrent" : 
+      {
+        "Field Name" : "lifetimeDurationCurrent",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "lifetimeDurationSet" : 
+      {
+        "Field Name" : "lifetimeDurationSet",
+        "Field Type" : 5,
+        "Field Value" : 5.0
+      }
+    }
+  ],
+  "ID" : 1867,
+  "ObjName" : "DamagedParticle",
+  "Tag" : "None",
+  "Transform" : 
+  {
+    "Active" : true,
+    "Component Name" : "Transform",
+    "Position" : [ 0.0, 1.0, 0.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

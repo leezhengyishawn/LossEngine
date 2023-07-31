@@ -1,0 +1,65 @@
+{
+  "Objects" : 
+  [
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "RenderPass",
+          "i" : 
+          {
+            "Field Name" : "i",
+            "Field Type" : 3,
+            "Field Value" : 0
+          }
+        }
+      ],
+      "ID" : 4,
+      "ObjName" : "NewGameObject",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 0.0, 0.0, 0.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    }
+  ],
+  "PhysicsManager" : 
+  {
+    "Collision" : true,
+    "DebugDraw" : "11111111",
+    "Gravity" : [ 0.0, -1.0 ]
+  },
+  "SceneName" : "ASDSAD",
+  "SceneRenderer" : 
+  {
+    "StartPasses" : 
+    [
+      {
+        "EndRange" : 0.0,
+        "PassName" : "New Start Pass",
+        "PassType" : 0,
+        "StartRange" : 0.0,
+        "SubPass" : 
+        [
+          {
+            "PassName" : "ASD",
+            "PassType" : 1
+          }
+        ],
+        "SubPasses" : 
+        [
+          {
+            "PassName" : "ASD",
+            "PassType" : 1
+          }
+        ]
+      }
+    ]
+  }
+}

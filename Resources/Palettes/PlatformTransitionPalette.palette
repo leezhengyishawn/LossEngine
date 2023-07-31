@@ -1,0 +1,453 @@
+{
+  "Tiles" : 
+  [
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 3,
+      "maxFrameY" : 2,
+      "textureName" : "Transition_Tiles"
+    },
+    {
+      "currentFrameX" : 2,
+      "currentFrameY" : 1,
+      "maxFrameX" : 3,
+      "maxFrameY" : 2,
+      "textureName" : "Transition_Tiles"
+    },
+    {
+      "currentFrameX" : 3,
+      "currentFrameY" : 1,
+      "maxFrameX" : 3,
+      "maxFrameY" : 2,
+      "textureName" : "Transition_Tiles"
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 3,
+      "currentFrameY" : 2,
+      "maxFrameX" : 3,
+      "maxFrameY" : 2,
+      "textureName" : "Transition_Tiles"
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 2,
+      "maxFrameX" : 3,
+      "maxFrameY" : 2,
+      "textureName" : "Transition_Tiles"
+    },
+    {
+      "currentFrameX" : 2,
+      "currentFrameY" : 2,
+      "maxFrameX" : 3,
+      "maxFrameY" : 2,
+      "textureName" : "Transition_Tiles"
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    },
+    {
+      "currentFrameX" : 1,
+      "currentFrameY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : ""
+    }
+  ]
+}

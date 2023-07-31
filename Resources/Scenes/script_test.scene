@@ -1,0 +1,184 @@
+{
+  "Objects" : 
+  [
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "SpriteRenderer",
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "maxCurrentX" : 1,
+          "maxCurrentY" : 1,
+          "maxFrameX" : 1,
+          "maxFrameY" : 1,
+          "textureName" : "Crate"
+        }
+      ],
+      "ID" : 21,
+      "ObjName" : "Box 1",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ -5.0, 0.0, 0.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "SpriteRenderer",
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "maxCurrentX" : 1,
+          "maxCurrentY" : 1,
+          "maxFrameX" : 1,
+          "maxFrameY" : 1,
+          "textureName" : "Crate"
+        }
+      ],
+      "ID" : 22,
+      "ObjName" : "Box 2",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 5.0, 0.0, 0.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "ScriptHotReloading",
+          "gamRef" : 
+          {
+            "Field Name" : "gamRef",
+            "Field Type" : 9,
+            "Field Value" : "Box 2",
+            "Object ID" : 22
+          },
+          "moveSpeed" : 
+          {
+            "Field Name" : "moveSpeed",
+            "Field Type" : 5,
+            "Field Value" : 1.0
+          },
+          "refRigid" : null,
+          "refTextRenderer" : null,
+          "test1" : 
+          {
+            "Field Name" : "test1",
+            "Field Type" : 3,
+            "Field Value" : 0
+          },
+          "test2" : 
+          {
+            "Field Name" : "test2",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "test3" : 
+          {
+            "Field Name" : "test3",
+            "Field Type" : 6,
+            "Field Value" : 0.0
+          },
+          "test4" : 
+          {
+            "Field Name" : "test4",
+            "Field Type" : 3,
+            "Field Value" : 0
+          },
+          "test5" : 
+          {
+            "Field Name" : "test5",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "test6" : 
+          {
+            "Field Name" : "test6",
+            "Field Type" : 6,
+            "Field Value" : 0.0
+          }
+        }
+      ],
+      "ID" : 23,
+      "ObjName" : "Script",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 0.0, 0.0, 0.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Camera",
+          "camera_mode" : 1,
+          "ortho_far" : 1000.0,
+          "ortho_height" : 1.0,
+          "ortho_near" : -1.0,
+          "ortho_width" : 1.0,
+          "ortho_xratio" : 1.0,
+          "ortho_yratio" : 1.0,
+          "ortho_zoom" : 1.0,
+          "perspec_far" : 1000.0,
+          "perspec_fov" : 30.0,
+          "perspec_height" : 0.89999997615814209,
+          "perspec_near" : -1.0,
+          "perspec_width" : 1.6000000238418579
+        }
+      ],
+      "ID" : 24,
+      "ObjName" : "Camera",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 0.0, 0.0, 25.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    }
+  ],
+  "PhysicsManager" : 
+  {
+    "Collision" : true,
+    "DebugDraw" : "11111111",
+    "Gravity" : [ 0.0, -1.0 ]
+  },
+  "SceneName" : "script_test",
+  "SoundManager" : 
+  {
+    "MasterMute" : false,
+    "MasterPause" : false,
+    "MasterVolume" : 0.0
+  }
+}

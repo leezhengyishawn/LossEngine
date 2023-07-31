@@ -1,0 +1,110 @@
+{
+  "Animator" : 
+  {
+    "WindowFlags" : 1024,
+    "WindowName" : "Animator",
+    "WindowOpen" : false
+  },
+  "Browser" : 
+  {
+    "WindowFlags" : 2,
+    "WindowName" : "Browser",
+    "WindowOpen" : true
+  },
+  "Console" : 
+  {
+    "WindowFlags" : 0,
+    "WindowName" : "Console",
+    "WindowOpen" : true
+  },
+  "Curve" : 
+  {
+    "WindowFlags" : 0,
+    "WindowName" : "Curve",
+    "WindowOpen" : false
+  },
+  "Debug" : 
+  {
+    "WindowFlags" : 0,
+    "WindowName" : "Debug",
+    "WindowOpen" : true
+  },
+  "Dock" : 
+  {
+    "WindowFlags" : 0,
+    "WindowName" : "Dock",
+    "WindowOpen" : true
+  },
+  "Editor" : 
+  {
+    "WindowFlags" : 2,
+    "WindowName" : "Editor",
+    "WindowOpen" : true
+  },
+  "Hierarchy" : 
+  {
+    "WindowFlags" : 2,
+    "WindowName" : "Hierarchy",
+    "WindowOpen" : true
+  },
+  "Inspector" : 
+  {
+    "WindowFlags" : 2,
+    "WindowName" : "Inspector",
+    "WindowOpen" : true
+  },
+  "LightingWindow" : 
+  {
+    "WindowFlags" : 0,
+    "WindowName" : "Lighting",
+    "WindowOpen" : false
+  },
+  "Palette" : 
+  {
+    "WindowFlags" : 32,
+    "WindowName" : "Palette",
+    "WindowOpen" : true
+  },
+  "Physics Manager" : 
+  {
+    "WindowFlags" : 0,
+    "WindowName" : "Physics Manager",
+    "WindowOpen" : true
+  },
+  "RenderPass" : 
+  {
+    "WindowFlags" : 0,
+    "WindowName" : "Render Passes",
+    "WindowOpen" : true
+  },
+  "Scene" : 
+  {
+    "WindowFlags" : 2,
+    "WindowName" : "Scene",
+    "WindowOpen" : true
+  },
+  "ShaderMaterial" : 
+  {
+    "WindowFlags" : 1024,
+    "WindowName" : "Shader Material",
+    "WindowOpen" : false
+  },
+  "SoundWindow" : 
+  {
+    "WindowFlags" : 0,
+    "WindowName" : "Sound Manager",
+    "WindowOpen" : true
+  },
+  "StateMachineWindow" : 
+  {
+    "WindowFlags" : 0,
+    "WindowName" : "State Machine",
+    "WindowOpen" : false
+  },
+  "TagWindow" : 
+  {
+    "WindowFlags" : 0,
+    "WindowName" : "Tag & Layer Window",
+    "WindowOpen" : true
+  }
+}

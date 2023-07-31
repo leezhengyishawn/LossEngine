@@ -1,0 +1,725 @@
+{
+  "Active" : true,
+  "Child" : 
+  [
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "BoxCollider",
+          "Height" : 0.10000000149011612,
+          "Is Sensor" : true,
+          "Orientation" : 0.0,
+          "Position" : [ 0.0, 0.0 ],
+          "Width" : 0.5
+        },
+        {
+          "Active" : true,
+          "Angular Drag" : 0.0,
+          "Angular Velocity" : 0.0,
+          "Component Name" : "RigidBody",
+          "Drag" : 0.0,
+          "Dynamic Friction" : 0.0,
+          "Gravity Scale" : 0.0,
+          "Inverse Inertia" : 0.0,
+          "Inverse Mass" : 999.99993896484375,
+          "Restitution" : 0.0,
+          "Static Friction" : 0.0,
+          "Time Scale" : 1.0,
+          "Velocity" : [ 0.0, 0.0 ]
+        },
+        {
+          "Active" : true,
+          "Component Name" : "EnemyCheckers",
+          "checkGround" : 
+          {
+            "Field Name" : "checkGround",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "checkWall" : 
+          {
+            "Field Name" : "checkWall",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "hasInit" : 
+          {
+            "Field Name" : "hasInit",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isCollidingGround" : 
+          {
+            "Field Name" : "isCollidingGround",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isCollidingWall" : 
+          {
+            "Field Name" : "isCollidingWall",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "listOfCollisionIgnore" : null
+        }
+      ],
+      "ID" : 5978,
+      "ObjName" : "EnemyCheckGroundDead1",
+      "Tag" : "IgnoreCollision",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 0.0, -0.5, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "BoxCollider",
+          "Height" : 0.40000000596046448,
+          "Is Sensor" : true,
+          "Orientation" : 0.0,
+          "Position" : [ 0.0, 0.0 ],
+          "Width" : 0.10000000149011612
+        },
+        {
+          "Active" : true,
+          "Angular Drag" : 0.0,
+          "Angular Velocity" : 0.0,
+          "Component Name" : "RigidBody",
+          "Drag" : 0.0,
+          "Dynamic Friction" : 0.0,
+          "Gravity Scale" : 0.0,
+          "Inverse Inertia" : 0.0,
+          "Inverse Mass" : 999.99993896484375,
+          "Restitution" : 0.0,
+          "Static Friction" : 0.0,
+          "Time Scale" : 1.0,
+          "Velocity" : [ 0.0, 0.0 ]
+        },
+        {
+          "Active" : true,
+          "Component Name" : "EnemyCheckers",
+          "checkGround" : 
+          {
+            "Field Name" : "checkGround",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "checkWall" : 
+          {
+            "Field Name" : "checkWall",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "hasInit" : 
+          {
+            "Field Name" : "hasInit",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isCollidingGround" : 
+          {
+            "Field Name" : "isCollidingGround",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isCollidingWall" : 
+          {
+            "Field Name" : "isCollidingWall",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "listOfCollisionIgnore" : null
+        }
+      ],
+      "ID" : 5979,
+      "ObjName" : "EnemyCheckWallDead1",
+      "Tag" : "IgnoreCollision",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 0.5, -0.10000000149011612, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "ID" : 5980,
+      "ObjName" : "EnemyHeadDead1",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 0.30000001192092896, 0.0, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : false,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "ParticleEmitter",
+          "EndColorMaxW" : 0.76470589637756348,
+          "EndColorMaxX" : 1.0,
+          "EndColorMaxY" : 1.0,
+          "EndColorMaxZ" : 1.0,
+          "EndColorMinW" : 0.74901962280273438,
+          "EndColorMinX" : 1.0,
+          "EndColorMinY" : 1.0,
+          "EndColorMinZ" : 1.0,
+          "ParticleLinesCenterX" : 0.0,
+          "ParticleLinesCenterY" : 0.0,
+          "StartColorMaxW" : 0.0,
+          "StartColorMaxX" : 1.0,
+          "StartColorMaxY" : 1.0,
+          "StartColorMaxZ" : 1.0,
+          "StartColorMinW" : 0.0,
+          "StartColorMinX" : 1.0,
+          "StartColorMinY" : 1.0,
+          "StartColorMinZ" : 1.0,
+          "circleRadius" : 0.0,
+          "coneAngle" : 0.0,
+          "constForceMaxX" : 0.0,
+          "constForceMaxY" : 0.30000001192092896,
+          "constForceMinX" : 0.0,
+          "constForceMinY" : 0.10000000149011612,
+          "duration" : 1.0,
+          "edgeLength" : 0.30000001192092896,
+          "emitterMode" : 3,
+          "finalScaleMax" : 0.0,
+          "finalScaleMin" : 0.0,
+          "lifeTimeMax" : 2.0,
+          "lifeTimeMin" : 1.0,
+          "looping" : true,
+          "particlePerSecond" : 3.0,
+          "rotateToVelocity" : true,
+          "rotationMax" : 0.0,
+          "rotationMin" : 0.0,
+          "rotationSpeedMax" : 0.0,
+          "rotationSpeedMin" : 0.0,
+          "scaleMax" : 0.60000002384185791,
+          "scaleMin" : 0.40000000596046448,
+          "startSpeedMax" : 0.30000001192092896,
+          "startSpeedMin" : 0.10000000149011612,
+          "texture" : "Checkpoint_Interactable_Particle"
+        }
+      ],
+      "ID" : 5981,
+      "ObjName" : "DeadParticleDead1",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 0.0, -0.10000000149011612, -0.0099999997764825821 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "SpriteRenderer",
+      "colorW" : 1.0,
+      "colorX" : 1.0,
+      "colorY" : 1.0,
+      "colorZ" : 1.0,
+      "maxCurrentX" : 1,
+      "maxCurrentY" : 1,
+      "maxFrameX" : 8,
+      "maxFrameY" : 3,
+      "textureName" : "Enemy_Idle"
+    },
+    {
+      "Active" : true,
+      "Affect Transform" : false,
+      "Animate Count" : -1,
+      "Component Name" : "Animator",
+      "File" : "EnemyIdleAnim",
+      "Speed" : 1.0,
+      "Starting Delay" : 0.0
+    },
+    {
+      "Active" : true,
+      "Component Name" : "BoxCollider",
+      "Height" : 0.5,
+      "Is Sensor" : false,
+      "Orientation" : 0.0,
+      "Position" : [ 0.0, -0.10000000149011612 ],
+      "Width" : 0.69999998807907104
+    },
+    {
+      "Active" : true,
+      "Angular Drag" : 0.0,
+      "Angular Velocity" : 0.0,
+      "Component Name" : "RigidBody",
+      "Drag" : 0.25,
+      "Dynamic Friction" : 0.0,
+      "Gravity Scale" : 3.0,
+      "Inverse Inertia" : 0.0,
+      "Inverse Mass" : 1.0,
+      "Restitution" : 0.0,
+      "Static Friction" : 0.0,
+      "Time Scale" : 1.0,
+      "Velocity" : [ 0.0, 0.0 ]
+    },
+    {
+      "Active" : true,
+      "Component Name" : "EnemyBehaviour",
+      "animAttack" : null,
+      "animDeath" : null,
+      "animIdle" : null,
+      "animMove" : null,
+      "animMushroomRepeat" : null,
+      "animMushroomSingle" : null,
+      "animUpDown" : null,
+      "behaviourTimerCurrent" : 
+      {
+        "Field Name" : "behaviourTimerCurrent",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "behaviourTimerSet" : 
+      {
+        "Field Name" : "behaviourTimerSet",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "behaviourTypeArray" : null,
+      "behaviourTypeCurrent" : null,
+      "canChase" : 
+      {
+        "Field Name" : "canChase",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "canDefy" : 
+      {
+        "Field Name" : "canDefy",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "canJump" : 
+      {
+        "Field Name" : "canJump",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "canMelee" : 
+      {
+        "Field Name" : "canMelee",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "canMove" : 
+      {
+        "Field Name" : "canMove",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "canMushroom" : 
+      {
+        "Field Name" : "canMushroom",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "canShoot" : 
+      {
+        "Field Name" : "canShoot",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "checkerGround" : null,
+      "checkerGroundObject" : 
+      {
+        "Field Name" : "checkerGroundObject",
+        "Field Type" : 9,
+        "Field Value" : "EnemyCheckGroundDead1",
+        "Object ID" : 5978
+      },
+      "checkerWall" : null,
+      "checkerWallObject" : 
+      {
+        "Field Name" : "checkerWallObject",
+        "Field Type" : 9,
+        "Field Value" : "EnemyCheckWallDead1",
+        "Object ID" : 5979
+      },
+      "col2D" : null,
+      "damagedParticle" : null,
+      "deadParticle" : 
+      {
+        "Field Name" : "deadParticle",
+        "Field Type" : 9,
+        "Field Value" : "DeadParticleDead1",
+        "Object ID" : 5981
+      },
+      "endingPosition" : 
+      {
+        "Field Name" : "endingPosition",
+        "Field Type" : 8,
+        "Field Value" : [ 0.0, 0.0, 0.0 ]
+      },
+      "endingPositionOffsetMax" : 
+      {
+        "Field Name" : "endingPositionOffsetMax",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "enemyHeadObject" : 
+      {
+        "Field Name" : "enemyHeadObject",
+        "Field Type" : 9,
+        "Field Value" : "EnemyHeadDead1",
+        "Object ID" : 5980
+      },
+      "enemyState" : null,
+      "enemyStatePrevious" : null,
+      "flashDurationCurrent" : 
+      {
+        "Field Name" : "flashDurationCurrent",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "flashDurationSet" : 
+      {
+        "Field Name" : "flashDurationSet",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "hasInit" : 
+      {
+        "Field Name" : "hasInit",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "hasSavedHiddenPoint" : 
+      {
+        "Field Name" : "hasSavedHiddenPoint",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "healthCurrent" : 
+      {
+        "Field Name" : "healthCurrent",
+        "Field Type" : 3,
+        "Field Value" : 0
+      },
+      "healthMaximum" : 
+      {
+        "Field Name" : "healthMaximum",
+        "Field Type" : 3,
+        "Field Value" : 0
+      },
+      "horizontalMovementAxis" : 
+      {
+        "Field Name" : "horizontalMovementAxis",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "invisDurationCurrent" : 
+      {
+        "Field Name" : "invisDurationCurrent",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "invisDurationSet" : 
+      {
+        "Field Name" : "invisDurationSet",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "isDamaged" : 
+      {
+        "Field Name" : "isDamaged",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "isDefyingDown" : 
+      {
+        "Field Name" : "isDefyingDown",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "isEaten" : 
+      {
+        "Field Name" : "isEaten",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "isFacingWall" : 
+      {
+        "Field Name" : "isFacingWall",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "isFlashing" : 
+      {
+        "Field Name" : "isFlashing",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "isInvis" : 
+      {
+        "Field Name" : "isInvis",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "isJumping" : 
+      {
+        "Field Name" : "isJumping",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "isMeleeing" : 
+      {
+        "Field Name" : "isMeleeing",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "isMushroomBouncing" : 
+      {
+        "Field Name" : "isMushroomBouncing",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "isMushroomRecovering" : 
+      {
+        "Field Name" : "isMushroomRecovering",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "isNewBehaviour" : 
+      {
+        "Field Name" : "isNewBehaviour",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "isOnGround" : 
+      {
+        "Field Name" : "isOnGround",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "isOnMeleeCooldown" : 
+      {
+        "Field Name" : "isOnMeleeCooldown",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "isOnShootCooldown" : 
+      {
+        "Field Name" : "isOnShootCooldown",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "isShooting" : 
+      {
+        "Field Name" : "isShooting",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "jumpingSpeed" : 
+      {
+        "Field Name" : "jumpingSpeed",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "mainPlayer" : null,
+      "mainPlayerTongue" : null,
+      "meleeCooldownDurationCurrent" : 
+      {
+        "Field Name" : "meleeCooldownDurationCurrent",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "meleeCooldownDurationSet" : 
+      {
+        "Field Name" : "meleeCooldownDurationSet",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "meleeDelayDurationCurrent" : 
+      {
+        "Field Name" : "meleeDelayDurationCurrent",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "meleeDelayDurationSet" : 
+      {
+        "Field Name" : "meleeDelayDurationSet",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "meleeStateDurationCurrent" : 
+      {
+        "Field Name" : "meleeStateDurationCurrent",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "meleeStateDurationSet" : 
+      {
+        "Field Name" : "meleeStateDurationSet",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "movementSpeed" : 
+      {
+        "Field Name" : "movementSpeed",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "mySpawnedObject" : null,
+      "mySpiderBase" : null,
+      "mySpiderWeb" : null,
+      "rb2D" : null,
+      "sheetAttack" : null,
+      "sheetBounceMushroom" : null,
+      "sheetDeath" : null,
+      "sheetIdle" : null,
+      "sheetIdleMushroom" : null,
+      "sheetMove" : null,
+      "sheetMoveMushroom" : null,
+      "sheetRecoverMushroom" : null,
+      "sheetUpDown" : null,
+      "shootCooldownDurationCurrent" : 
+      {
+        "Field Name" : "shootCooldownDurationCurrent",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "shootCooldownDurationSet" : 
+      {
+        "Field Name" : "shootCooldownDurationSet",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "shootDelayDurationCurrent" : 
+      {
+        "Field Name" : "shootDelayDurationCurrent",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "shootDelayDurationSet" : 
+      {
+        "Field Name" : "shootDelayDurationSet",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "shootStateDurationCurrent" : 
+      {
+        "Field Name" : "shootStateDurationCurrent",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "shootStateDurationSet" : 
+      {
+        "Field Name" : "shootStateDurationSet",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "shootingSpeed" : 
+      {
+        "Field Name" : "shootingSpeed",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "spiderWebStringLength" : 
+      {
+        "Field Name" : "spiderWebStringLength",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "spriteAnimator" : null,
+      "spriteRenderer" : null,
+      "startingPosition" : 
+      {
+        "Field Name" : "startingPosition",
+        "Field Type" : 8,
+        "Field Value" : [ 0.0, 0.0, 0.0 ]
+      },
+      "tongueInteractive" : null,
+      "turnOnTimerFlashing" : 
+      {
+        "Field Name" : "turnOnTimerFlashing",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "turnOnTimerInvis" : 
+      {
+        "Field Name" : "turnOnTimerInvis",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "turnOnTimerMeleeCooldown" : 
+      {
+        "Field Name" : "turnOnTimerMeleeCooldown",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "turnOnTimerMeleeDelay" : 
+      {
+        "Field Name" : "turnOnTimerMeleeDelay",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "turnOnTimerMeleeState" : 
+      {
+        "Field Name" : "turnOnTimerMeleeState",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "turnOnTimerShootCooldown" : 
+      {
+        "Field Name" : "turnOnTimerShootCooldown",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "turnOnTimerShootDelay" : 
+      {
+        "Field Name" : "turnOnTimerShootDelay",
+        "Field Type" : 0,
+        "Field Value" : false
+      },
+      "turnOnTimerShootState" : 
+      {
+        "Field Name" : "turnOnTimerShootState",
+        "Field Type" : 0,
+        "Field Value" : false
+      }
+    },
+    {
+      "Active" : true,
+      "Component Name" : "TongueInteractive"
+    }
+  ],
+  "ID" : 5977,
+  "ObjName" : "EnemyCharacterDead1",
+  "Tag" : "Enemy",
+  "Transform" : 
+  {
+    "Active" : true,
+    "Component Name" : "Transform",
+    "Position" : [ 31.682750701904297, -17.760482788085938, 0.68999999761581421 ],
+    "Rotation" : [ -0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

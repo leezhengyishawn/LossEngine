@@ -1,0 +1,87 @@
+{
+  "Active" : true,
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "ParticleEmitter",
+      "EndColorMaxW" : 0.0,
+      "EndColorMaxX" : 0.99139207601547241,
+      "EndColorMaxY" : 1.0,
+      "EndColorMaxZ" : 0.71078431606292725,
+      "EndColorMinW" : 0.0,
+      "EndColorMinX" : 1.0,
+      "EndColorMinY" : 0.95963084697723389,
+      "EndColorMinZ" : 0.72549021244049072,
+      "Particle Burst" : 
+      [
+        {
+          "BurstCount" : 8,
+          "BurstTime" : 0.0
+        }
+      ],
+      "ParticleLinesCenterX" : 0.0,
+      "ParticleLinesCenterY" : 0.0,
+      "StartColorMaxW" : 1.0,
+      "StartColorMaxX" : 0.99998998641967773,
+      "StartColorMaxY" : 1.0,
+      "StartColorMaxZ" : 0.99999237060546875,
+      "StartColorMinW" : 1.0,
+      "StartColorMinX" : 0.99998998641967773,
+      "StartColorMinY" : 1.0,
+      "StartColorMinZ" : 0.999991774559021,
+      "circleRadius" : 0.05000000074505806,
+      "coneAngle" : 0.0,
+      "constForceMaxX" : -2.0,
+      "constForceMaxY" : 0.60000002384185791,
+      "constForceMinX" : -1.0,
+      "constForceMinY" : 0.20000000298023224,
+      "duration" : 1.0,
+      "edgeLength" : 0.80000001192092896,
+      "emitterMode" : 2,
+      "finalScaleMax" : 0.20000000298023224,
+      "finalScaleMin" : 0.10000000149011612,
+      "lifeTimeMax" : 1.0,
+      "lifeTimeMin" : 0.5,
+      "looping" : false,
+      "particlePerSecond" : 0.0,
+      "rotateToVelocity" : false,
+      "rotationMax" : -80.0,
+      "rotationMin" : 80.0,
+      "rotationSpeedMax" : 0.60000002384185791,
+      "rotationSpeedMin" : 0.30000001192092896,
+      "scaleMax" : 0.30000001192092896,
+      "scaleMin" : 0.20000000298023224,
+      "startSpeedMax" : 0.30000001192092896,
+      "startSpeedMin" : 0.20000000298023224,
+      "texture" : "Leaf_Particles"
+    },
+    {
+      "Active" : true,
+      "Component Name" : "DandeParticle",
+      "lifetimeDurationCurrent" : 
+      {
+        "Field Name" : "lifetimeDurationCurrent",
+        "Field Type" : 5,
+        "Field Value" : 0.0
+      },
+      "lifetimeDurationSet" : 
+      {
+        "Field Name" : "lifetimeDurationSet",
+        "Field Type" : 5,
+        "Field Value" : 5.0
+      }
+    }
+  ],
+  "ID" : 383,
+  "ObjName" : "LeafButtonParticle",
+  "Tag" : "None",
+  "Transform" : 
+  {
+    "Active" : true,
+    "Component Name" : "Transform",
+    "Position" : [ 2.4668562412261963, 1.0078046321868896, 0.0 ],
+    "Rotation" : [ -0.0, 0.0, 0.0 ],
+    "Scale" : [ 1.0, 1.0, 1.0 ]
+  }
+}

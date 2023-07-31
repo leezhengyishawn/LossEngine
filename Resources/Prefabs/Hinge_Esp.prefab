@@ -1,0 +1,149 @@
+{
+  "Active" : true,
+  "Child" : 
+  [
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Angular Drag" : 0.0,
+          "Angular Velocity" : 0.0,
+          "Component Name" : "RigidBody",
+          "Drag" : 0.0,
+          "Dynamic Friction" : 0.0,
+          "Gravity Scale" : 0.0,
+          "Inverse Inertia" : 0.0,
+          "Inverse Mass" : 0.0,
+          "Restitution" : 0.0,
+          "Static Friction" : 0.0,
+          "Time Scale" : 1.0,
+          "Velocity" : [ 0.0, 0.0 ]
+        },
+        {
+          "Active" : true,
+          "Component Name" : "BoxCollider",
+          "Height" : 1.0,
+          "Is Sensor" : true,
+          "Orientation" : 0.0,
+          "Position" : [ 0.0, 0.0 ],
+          "Width" : 1.0
+        },
+        {
+          "Active" : true,
+          "Component Name" : "TongueInteractive"
+        },
+        {
+          "Active" : true,
+          "Component Name" : "ParticleEmitter",
+          "EndColorMaxW" : 0.035294119268655777,
+          "EndColorMaxX" : 1.0,
+          "EndColorMaxY" : 1.0,
+          "EndColorMaxZ" : 1.0,
+          "EndColorMinW" : 0.65882354974746704,
+          "EndColorMinX" : 1.0,
+          "EndColorMinY" : 1.0,
+          "EndColorMinZ" : 1.0,
+          "ParticleLinesCenterX" : 0.0,
+          "ParticleLinesCenterY" : 0.0,
+          "StartColorMaxW" : 1.0,
+          "StartColorMaxX" : 1.0,
+          "StartColorMaxY" : 1.0,
+          "StartColorMaxZ" : 1.0,
+          "StartColorMinW" : 1.0,
+          "StartColorMinX" : 1.0,
+          "StartColorMinY" : 1.0,
+          "StartColorMinZ" : 1.0,
+          "circleRadius" : 0.0,
+          "coneAngle" : 0.0,
+          "constForceMaxX" : 0.0,
+          "constForceMaxY" : -1.0,
+          "constForceMinX" : 0.0,
+          "constForceMinY" : -0.5,
+          "duration" : 5.0,
+          "edgeLength" : 0.30000001192092896,
+          "emitterMode" : 3,
+          "finalScaleMax" : 0.10000000149011612,
+          "finalScaleMin" : 0.0,
+          "lifeTimeMax" : 2.0,
+          "lifeTimeMin" : 1.0,
+          "looping" : true,
+          "particlePerSecond" : 2.0,
+          "rotateToVelocity" : false,
+          "rotationMax" : 0.0,
+          "rotationMin" : 0.0,
+          "rotationSpeedMax" : 0.0,
+          "rotationSpeedMin" : 0.0,
+          "scaleMax" : 0.30000001192092896,
+          "scaleMin" : 0.20000000298023224,
+          "startSpeedMax" : 0.0,
+          "startSpeedMin" : 0.0,
+          "texture" : "Cavern_Interactable_Particle"
+        }
+      ],
+      "ID" : 3264,
+      "ObjName" : "HingeCollider",
+      "Tag" : "HingePoint",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 0.0, -0.15000000596046448, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Angular Drag" : 0.0,
+      "Angular Velocity" : 0.0,
+      "Component Name" : "RigidBody",
+      "Drag" : 0.0,
+      "Dynamic Friction" : 0.0,
+      "Gravity Scale" : 0.0,
+      "Inverse Inertia" : 0.0,
+      "Inverse Mass" : 0.0,
+      "Restitution" : 0.0,
+      "Static Friction" : 0.0,
+      "Time Scale" : 1.0,
+      "Velocity" : [ 0.0, 0.0 ]
+    },
+    {
+      "Active" : true,
+      "Component Name" : "BoxCollider",
+      "Height" : 1.0,
+      "Is Sensor" : false,
+      "Orientation" : 0.0,
+      "Position" : [ 0.0, 0.20000000298023224 ],
+      "Width" : 0.60000002384185791
+    },
+    {
+      "Active" : true,
+      "Component Name" : "SpriteRenderer",
+      "colorW" : 1.0,
+      "colorX" : 1.0,
+      "colorY" : 1.0,
+      "colorZ" : 1.0,
+      "maxCurrentX" : 1,
+      "maxCurrentY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : "Cavern_Short_Grappling_Point"
+    }
+  ],
+  "ID" : 3263,
+  "ObjName" : "Hinge_Esp",
+  "Tag" : "None",
+  "Transform" : 
+  {
+    "Active" : true,
+    "Component Name" : "Transform",
+    "Position" : [ 21.058975219726563, 8.6932926177978516, 0.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 0.69999998807907104, 1.6000000238418579, 1.0 ]
+  }
+}

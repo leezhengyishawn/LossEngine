@@ -1,0 +1,63 @@
+{
+  "Active" : true,
+  "Child" : 
+  [
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "SpriteRenderer",
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "maxCurrentX" : 1,
+          "maxCurrentY" : 1,
+          "maxFrameX" : 1,
+          "maxFrameY" : 1,
+          "textureName" : "Web"
+        }
+      ],
+      "ID" : 1651,
+      "ObjName" : "SpiderWebUnder",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ -0.051794573664665222, 0.22856831550598145, -0.0099999997764825821 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.5, 1.1000000238418579, 1.0 ]
+      }
+    }
+  ],
+  "Components" : 
+  [
+    {
+      "Active" : true,
+      "Component Name" : "SpriteRenderer",
+      "colorW" : 1.0,
+      "colorX" : 1.0,
+      "colorY" : 1.0,
+      "colorZ" : 1.0,
+      "maxCurrentX" : 1,
+      "maxCurrentY" : 1,
+      "maxFrameX" : 1,
+      "maxFrameY" : 1,
+      "textureName" : "web_string_base"
+    }
+  ],
+  "ID" : 1650,
+  "ObjName" : "SpiderWebTop",
+  "Tag" : "None",
+  "Transform" : 
+  {
+    "Active" : true,
+    "Component Name" : "Transform",
+    "Position" : [ 0.0, 0.0, 0.0 ],
+    "Rotation" : [ 0.0, 0.0, 0.0 ],
+    "Scale" : [ 0.5, 0.20000000298023224, 1.0 ]
+  }
+}

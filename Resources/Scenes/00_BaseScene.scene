@@ -1,0 +1,3041 @@
+{
+  "Objects" : 
+  [
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "BoxCollider",
+          "Height" : 1.0,
+          "Is Sensor" : false,
+          "Orientation" : 0.0,
+          "Position" : [ 0.0, 0.0 ],
+          "Width" : 20.0
+        },
+        {
+          "Active" : true,
+          "Angular Drag" : 0.0,
+          "Angular Velocity" : 0.0,
+          "Component Name" : "RigidBody",
+          "Drag" : 0.25,
+          "Dynamic Friction" : 0.0,
+          "Gravity Scale" : 0.0,
+          "Inverse Inertia" : 0.0,
+          "Inverse Mass" : 0.0,
+          "Restitution" : 0.0,
+          "Static Friction" : 0.0,
+          "Time Scale" : 1.0,
+          "Velocity" : [ 0.0, 0.0 ]
+        }
+      ],
+      "ID" : 887,
+      "ObjName" : "Collider",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 0.0, -2.0, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 20.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "BoxCollider",
+          "Height" : 1.0,
+          "Is Sensor" : false,
+          "Orientation" : 0.0,
+          "Position" : [ 0.0, 0.0 ],
+          "Width" : 3.0
+        },
+        {
+          "Active" : true,
+          "Angular Drag" : 0.0,
+          "Angular Velocity" : 0.0,
+          "Component Name" : "RigidBody",
+          "Drag" : 0.25,
+          "Dynamic Friction" : 0.0,
+          "Gravity Scale" : 0.0,
+          "Inverse Inertia" : 0.0,
+          "Inverse Mass" : 0.0,
+          "Restitution" : 0.0,
+          "Static Friction" : 0.0,
+          "Time Scale" : 1.0,
+          "Velocity" : [ 0.0, 0.0 ]
+        }
+      ],
+      "ID" : 888,
+      "ObjName" : "Collider",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 0.0, 3.0, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 3.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Child" : 
+      [
+        {
+          "Active" : true,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "PauseController",
+              "hasInit" : 
+              {
+                "Field Name" : "hasInit",
+                "Field Type" : 0,
+                "Field Value" : false
+              },
+              "mainPlayer" : null,
+              "mainPlayerBehaviour" : null
+            }
+          ],
+          "ID" : 890,
+          "ObjName" : "MainGamePause",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : true,
+            "Component Name" : "Transform",
+            "Position" : [ 0.0, 0.0, 0.0 ],
+            "Rotation" : [ 0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        },
+        {
+          "Active" : true,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "SpriteRenderer",
+              "colorW" : 0.0,
+              "colorX" : 0.0,
+              "colorY" : 0.0,
+              "colorZ" : 0.0,
+              "maxCurrentX" : 1,
+              "maxCurrentY" : 1,
+              "maxFrameX" : 1,
+              "maxFrameY" : 1,
+              "textureName" : "Vignette"
+            }
+          ],
+          "ID" : 891,
+          "ObjName" : "BlackVignette",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : true,
+            "Component Name" : "Transform",
+            "Position" : [ 0.0, 0.0, -1.0 ],
+            "Rotation" : [ 0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.1000000238418579, 0.60000002384185791, 1.0 ]
+          }
+        },
+        {
+          "Active" : true,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "SpriteRenderer",
+              "colorW" : 0.0,
+              "colorX" : 0.0,
+              "colorY" : 0.0,
+              "colorZ" : 0.0,
+              "maxCurrentX" : 1,
+              "maxCurrentY" : 1,
+              "maxFrameX" : 1,
+              "maxFrameY" : 1,
+              "textureName" : "Overlay"
+            }
+          ],
+          "ID" : 892,
+          "ObjName" : "BlackOverlay",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : true,
+            "Component Name" : "Transform",
+            "Position" : [ 0.0, 0.0, -0.89999997615814209 ],
+            "Rotation" : [ 0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        },
+        {
+          "Active" : true,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "SpriteRenderer",
+              "colorW" : 0.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "maxCurrentX" : 1,
+              "maxCurrentY" : 1,
+              "maxFrameX" : 1,
+              "maxFrameY" : 1,
+              "textureName" : "Overlay"
+            }
+          ],
+          "ID" : 893,
+          "ObjName" : "WhiteOverlay",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : true,
+            "Component Name" : "Transform",
+            "Position" : [ 0.0, 0.0, -0.80000001192092896 ],
+            "Rotation" : [ 0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        },
+        {
+          "Active" : false,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "SpriteRenderer",
+              "colorW" : 1.0,
+              "colorX" : 9.9999999747524271e-07,
+              "colorY" : 9.9998999303352321e-07,
+              "colorZ" : 9.9998999303352321e-07,
+              "maxCurrentX" : 1,
+              "maxCurrentY" : 1,
+              "maxFrameX" : 1,
+              "maxFrameY" : 1,
+              "textureName" : "Overlay"
+            }
+          ],
+          "ID" : 894,
+          "ObjName" : "BlackBarTop",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : true,
+            "Component Name" : "Transform",
+            "Position" : [ -2.384185791015625e-07, 0.69999986886978149, -0.99000000953674316 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        },
+        {
+          "Active" : false,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "SpriteRenderer",
+              "colorW" : 1.0,
+              "colorX" : 9.9999999747524271e-07,
+              "colorY" : 9.9998999303352321e-07,
+              "colorZ" : 9.9998999303352321e-07,
+              "maxCurrentX" : 1,
+              "maxCurrentY" : 1,
+              "maxFrameX" : 1,
+              "maxFrameY" : 1,
+              "textureName" : "Overlay"
+            }
+          ],
+          "ID" : 895,
+          "ObjName" : "BlackBarBot",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : true,
+            "Component Name" : "Transform",
+            "Position" : [ -2.384185791015625e-07, -0.7000001072883606, -0.99000000953674316 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        },
+        {
+          "Active" : true,
+          "Child" : 
+          [
+            {
+              "Active" : true,
+              "Components" : 
+              [
+                {
+                  "Active" : true,
+                  "Component Name" : "SpriteRenderer",
+                  "colorW" : 1.0,
+                  "colorX" : 1.0,
+                  "colorY" : 1.0,
+                  "colorZ" : 1.0,
+                  "maxCurrentX" : 1,
+                  "maxCurrentY" : 1,
+                  "maxFrameX" : 1,
+                  "maxFrameY" : 1,
+                  "textureName" : "Health_Firefly_On"
+                }
+              ],
+              "ID" : 897,
+              "ObjName" : "Heart0",
+              "Tag" : "None",
+              "Transform" : 
+              {
+                "Active" : true,
+                "Component Name" : "Transform",
+                "Position" : [ 0.0, 0.0, 0.0 ],
+                "Rotation" : [ 0.0, 0.0, 0.0 ],
+                "Scale" : [ 1.0, 1.0, 1.0 ]
+              }
+            },
+            {
+              "Active" : true,
+              "Components" : 
+              [
+                {
+                  "Active" : true,
+                  "Component Name" : "SpriteRenderer",
+                  "colorW" : 1.0,
+                  "colorX" : 1.0,
+                  "colorY" : 1.0,
+                  "colorZ" : 1.0,
+                  "maxCurrentX" : 1,
+                  "maxCurrentY" : 1,
+                  "maxFrameX" : 1,
+                  "maxFrameY" : 1,
+                  "textureName" : "Health_Firefly_On"
+                }
+              ],
+              "ID" : 898,
+              "ObjName" : "Heart1",
+              "Tag" : "None",
+              "Transform" : 
+              {
+                "Active" : true,
+                "Component Name" : "Transform",
+                "Position" : [ 1.0, 0.0, 0.0 ],
+                "Rotation" : [ 0.0, 0.0, 0.0 ],
+                "Scale" : [ 1.0, 1.0, 1.0 ]
+              }
+            },
+            {
+              "Active" : true,
+              "Components" : 
+              [
+                {
+                  "Active" : true,
+                  "Component Name" : "SpriteRenderer",
+                  "colorW" : 1.0,
+                  "colorX" : 1.0,
+                  "colorY" : 1.0,
+                  "colorZ" : 1.0,
+                  "maxCurrentX" : 1,
+                  "maxCurrentY" : 1,
+                  "maxFrameX" : 1,
+                  "maxFrameY" : 1,
+                  "textureName" : "Health_Firefly_On"
+                }
+              ],
+              "ID" : 899,
+              "ObjName" : "Heart2",
+              "Tag" : "None",
+              "Transform" : 
+              {
+                "Active" : true,
+                "Component Name" : "Transform",
+                "Position" : [ 2.0, 0.0, 0.0 ],
+                "Rotation" : [ 0.0, 0.0, 0.0 ],
+                "Scale" : [ 1.0, 1.0, 1.0 ]
+              }
+            },
+            {
+              "Active" : true,
+              "Components" : 
+              [
+                {
+                  "Active" : true,
+                  "Component Name" : "SpriteRenderer",
+                  "colorW" : 1.0,
+                  "colorX" : 1.0,
+                  "colorY" : 1.0,
+                  "colorZ" : 1.0,
+                  "maxCurrentX" : 1,
+                  "maxCurrentY" : 1,
+                  "maxFrameX" : 1,
+                  "maxFrameY" : 1,
+                  "textureName" : "Health_Firefly_On"
+                }
+              ],
+              "ID" : 900,
+              "ObjName" : "Heart3",
+              "Tag" : "None",
+              "Transform" : 
+              {
+                "Active" : true,
+                "Component Name" : "Transform",
+                "Position" : [ 3.0, 0.0, 0.0 ],
+                "Rotation" : [ 0.0, 0.0, 0.0 ],
+                "Scale" : [ 1.0, 1.0, 1.0 ]
+              }
+            },
+            {
+              "Active" : true,
+              "Components" : 
+              [
+                {
+                  "Active" : true,
+                  "Component Name" : "SpriteRenderer",
+                  "colorW" : 1.0,
+                  "colorX" : 1.0,
+                  "colorY" : 1.0,
+                  "colorZ" : 1.0,
+                  "maxCurrentX" : 1,
+                  "maxCurrentY" : 1,
+                  "maxFrameX" : 1,
+                  "maxFrameY" : 1,
+                  "textureName" : "Health_Firefly_On"
+                }
+              ],
+              "ID" : 901,
+              "ObjName" : "Heart4",
+              "Tag" : "None",
+              "Transform" : 
+              {
+                "Active" : true,
+                "Component Name" : "Transform",
+                "Position" : [ 4.0, 0.0, 0.0 ],
+                "Rotation" : [ 0.0, 0.0, 0.0 ],
+                "Scale" : [ 1.0, 1.0, 1.0 ]
+              }
+            }
+          ],
+          "ID" : 896,
+          "ObjName" : "HeartUI",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : true,
+            "Component Name" : "Transform",
+            "Position" : [ -0.4200001060962677, 0.23000000417232513, -1.0 ],
+            "Rotation" : [ 0.0, 0.0, 0.0 ],
+            "Scale" : [ 0.05000000074505806, 0.05000000074505806, 1.0 ]
+          }
+        },
+        {
+          "Active" : false,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "SpriteRenderer",
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "maxCurrentX" : 1,
+              "maxCurrentY" : 1,
+              "maxFrameX" : 2,
+              "maxFrameY" : 4,
+              "textureName" : "In_Game_Dad_Dialogue"
+            },
+            {
+              "Active" : true,
+              "Affect Transform" : false,
+              "Animate Count" : 1,
+              "Component Name" : "Animator",
+              "File" : "WatchOutAnim",
+              "Speed" : 1.0,
+              "Starting Delay" : 0.0
+            }
+          ],
+          "ID" : 902,
+          "ObjName" : "WatchOutObject",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : true,
+            "Component Name" : "Transform",
+            "Position" : [ -0.30000013113021851, 0.10000000149011612, -1.0 ],
+            "Rotation" : [ 0.0, 0.0, 0.0 ],
+            "Scale" : [ 0.5, 0.25, 1.0 ]
+          }
+        }
+      ],
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "Camera",
+          "camera_mode" : 1,
+          "ortho_far" : 1000.0,
+          "ortho_height" : 1.0,
+          "ortho_near" : -1.0,
+          "ortho_width" : 1.0,
+          "ortho_xratio" : 1.0,
+          "ortho_yratio" : 1.0,
+          "ortho_zoom" : 1.0,
+          "perspec_far" : 1000.0,
+          "perspec_fov" : 30.0,
+          "perspec_height" : 0.89999997615814209,
+          "perspec_near" : -1.0,
+          "perspec_width" : 1.6000000238418579
+        },
+        {
+          "Active" : true,
+          "Component Name" : "CameraBehaviour",
+          "blackBarBot" : 
+          {
+            "Field Name" : "blackBarBot",
+            "Field Type" : 9,
+            "Field Value" : "BlackBarBot",
+            "Object ID" : 895
+          },
+          "blackBarBotHidePos" : 
+          {
+            "Field Name" : "blackBarBotHidePos",
+            "Field Type" : 8,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "blackBarBotSpawnPos" : 
+          {
+            "Field Name" : "blackBarBotSpawnPos",
+            "Field Type" : 8,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "blackBarTop" : 
+          {
+            "Field Name" : "blackBarTop",
+            "Field Type" : 9,
+            "Field Value" : "BlackBarTop",
+            "Object ID" : 894
+          },
+          "blackBarTopHidePos" : 
+          {
+            "Field Name" : "blackBarTopHidePos",
+            "Field Type" : 8,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "blackBarTopSpawnPos" : 
+          {
+            "Field Name" : "blackBarTopSpawnPos",
+            "Field Type" : 8,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "blackOverlay" : 
+          {
+            "Field Name" : "blackOverlay",
+            "Field Type" : 9,
+            "Field Value" : "BlackOverlay",
+            "Object ID" : 892
+          },
+          "blackOverlayRenderer" : null,
+          "blackVignette" : 
+          {
+            "Field Name" : "blackVignette",
+            "Field Type" : 9,
+            "Field Value" : "BlackVignette",
+            "Object ID" : 891
+          },
+          "blackVignetteRenderer" : null,
+          "cameraOffset" : 
+          {
+            "Field Name" : "cameraOffset",
+            "Field Type" : 8,
+            "Field Value" : [ 0.0, 0.60000002384185791, 0.0 ]
+          },
+          "cameraOffsetDefault" : 
+          {
+            "Field Name" : "cameraOffsetDefault",
+            "Field Type" : 8,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "fadeSpeedBlackOverlay" : 
+          {
+            "Field Name" : "fadeSpeedBlackOverlay",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "fadeSpeedVignette" : 
+          {
+            "Field Name" : "fadeSpeedVignette",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "fadeSpeedWhiteOverlay" : 
+          {
+            "Field Name" : "fadeSpeedWhiteOverlay",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "fadeValueMaxBlackOverlay" : 
+          {
+            "Field Name" : "fadeValueMaxBlackOverlay",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "fadeValueMaxVignette" : 
+          {
+            "Field Name" : "fadeValueMaxVignette",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "fadeValueMaxWhiteOverlay" : 
+          {
+            "Field Name" : "fadeValueMaxWhiteOverlay",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "fadeValueMinBlackOverlay" : 
+          {
+            "Field Name" : "fadeValueMinBlackOverlay",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "fadeValueMinVignette" : 
+          {
+            "Field Name" : "fadeValueMinVignette",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "fadeValueMinWhiteOverlay" : 
+          {
+            "Field Name" : "fadeValueMinWhiteOverlay",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "hasInit" : 
+          {
+            "Field Name" : "hasInit",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "healthHeart0" : 
+          {
+            "Field Name" : "healthHeart0",
+            "Field Type" : 9,
+            "Field Value" : "Heart0",
+            "Object ID" : 897
+          },
+          "healthHeart1" : 
+          {
+            "Field Name" : "healthHeart1",
+            "Field Type" : 9,
+            "Field Value" : "Heart1",
+            "Object ID" : 898
+          },
+          "healthHeart2" : 
+          {
+            "Field Name" : "healthHeart2",
+            "Field Type" : 9,
+            "Field Value" : "Heart2",
+            "Object ID" : 899
+          },
+          "healthHeart3" : 
+          {
+            "Field Name" : "healthHeart3",
+            "Field Type" : 9,
+            "Field Value" : "Heart3",
+            "Object ID" : 900
+          },
+          "healthHeart4" : 
+          {
+            "Field Name" : "healthHeart4",
+            "Field Type" : 9,
+            "Field Value" : "Heart4",
+            "Object ID" : 901
+          },
+          "healthUIParent" : 
+          {
+            "Field Name" : "healthUIParent",
+            "Field Type" : 9,
+            "Field Value" : "HeartUI",
+            "Object ID" : 896
+          },
+          "isCutscene" : 
+          {
+            "Field Name" : "isCutscene",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isDeadLock" : 
+          {
+            "Field Name" : "isDeadLock",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isOverlayFadingToBlack" : 
+          {
+            "Field Name" : "isOverlayFadingToBlack",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isOverlayFadingToWhite" : 
+          {
+            "Field Name" : "isOverlayFadingToWhite",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isVignetteFadingToBlack" : 
+          {
+            "Field Name" : "isVignetteFadingToBlack",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "loadingDurationCurrent" : 
+          {
+            "Field Name" : "loadingDurationCurrent",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "loadingDurationSet" : 
+          {
+            "Field Name" : "loadingDurationSet",
+            "Field Type" : 5,
+            "Field Value" : 6.0
+          },
+          "mainPlayer" : null,
+          "mainPlayerBehaviour" : null,
+          "maxOffsetX" : 
+          {
+            "Field Name" : "maxOffsetX",
+            "Field Type" : 5,
+            "Field Value" : 0.25
+          },
+          "maxOffsetY" : 
+          {
+            "Field Name" : "maxOffsetY",
+            "Field Type" : 5,
+            "Field Value" : 0.25
+          },
+          "mouseScreenDirection" : 
+          {
+            "Field Name" : "mouseScreenDirection",
+            "Field Type" : 8,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "mouseScreenDistance" : 
+          {
+            "Field Name" : "mouseScreenDistance",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "mouseScreenMagnitude" : 
+          {
+            "Field Name" : "mouseScreenMagnitude",
+            "Field Type" : 8,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "mouseScreenPosition" : 
+          {
+            "Field Name" : "mouseScreenPosition",
+            "Field Type" : 8,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "shakeTimer" : 
+          {
+            "Field Name" : "shakeTimer",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "sheetEmptyHeart" : null,
+          "sheetFullHeart" : null,
+          "transformLerp" : 
+          {
+            "Field Name" : "transformLerp",
+            "Field Type" : 8,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "transformX" : 
+          {
+            "Field Name" : "transformX",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "transformXYSpeed" : 
+          {
+            "Field Name" : "transformXYSpeed",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "transformY" : 
+          {
+            "Field Name" : "transformY",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "transformZ" : 
+          {
+            "Field Name" : "transformZ",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "transformZNormal" : 
+          {
+            "Field Name" : "transformZNormal",
+            "Field Type" : 5,
+            "Field Value" : 10.0
+          },
+          "transformZSpeed" : 
+          {
+            "Field Name" : "transformZSpeed",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "transformZTarget" : 
+          {
+            "Field Name" : "transformZTarget",
+            "Field Type" : 5,
+            "Field Value" : 10.0
+          },
+          "transformZZoomIn" : 
+          {
+            "Field Name" : "transformZZoomIn",
+            "Field Type" : 5,
+            "Field Value" : 8.0
+          },
+          "transformZZoomOut" : 
+          {
+            "Field Name" : "transformZZoomOut",
+            "Field Type" : 5,
+            "Field Value" : 13.0
+          },
+          "trauma" : 
+          {
+            "Field Name" : "trauma",
+            "Field Type" : 5,
+            "Field Value" : 2.0
+          },
+          "turnOnFullBlack" : 
+          {
+            "Field Name" : "turnOnFullBlack",
+            "Field Type" : 0,
+            "Field Value" : true
+          },
+          "turnOnFullWhite" : 
+          {
+            "Field Name" : "turnOnFullWhite",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "turnOnMainGameCinematics" : 
+          {
+            "Field Name" : "turnOnMainGameCinematics",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "turnOnSelfBlackFading" : 
+          {
+            "Field Name" : "turnOnSelfBlackFading",
+            "Field Type" : 0,
+            "Field Value" : true
+          },
+          "turnOnSelfWhiteFading" : 
+          {
+            "Field Name" : "turnOnSelfWhiteFading",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "turnOnVignetteForever" : 
+          {
+            "Field Name" : "turnOnVignetteForever",
+            "Field Type" : 0,
+            "Field Value" : true
+          },
+          "whiteOverlay" : 
+          {
+            "Field Name" : "whiteOverlay",
+            "Field Type" : 9,
+            "Field Value" : "WhiteOverlay",
+            "Object ID" : 893
+          },
+          "whiteOverlayRenderer" : null,
+          "zoomLerp" : 
+          {
+            "Field Name" : "zoomLerp",
+            "Field Type" : 8,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          }
+        }
+      ],
+      "ID" : 889,
+      "ObjName" : "MainGameCamera",
+      "Tag" : "MainCamera",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 1.1920928955078125e-07, 5.9604644775390625e-08, 10.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : true,
+          "Mute" : false,
+          "Pitch" : 0.80000001192092896,
+          "PlayOnStart" : true,
+          "Priority" : 0,
+          "Source Name" : "BGM_Main_Game",
+          "Volume" : 0.80000001192092896
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : true,
+          "Mute" : false,
+          "Pitch" : 0.80000001192092896,
+          "PlayOnStart" : true,
+          "Priority" : 0,
+          "Source Name" : "BGM_FrogAmbience",
+          "Volume" : 0.30000001192092896
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : true,
+          "Mute" : false,
+          "Pitch" : 0.80000001192092896,
+          "PlayOnStart" : true,
+          "Priority" : 0,
+          "Source Name" : "BGM_ForestAmbience",
+          "Volume" : 0.20000000298023224
+        },
+        {
+          "Active" : true,
+          "Component Name" : "BGMController",
+          "bossBGM" : 
+          {
+            "Field Name" : "bossBGM",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "caveBGM" : 
+          {
+            "Field Name" : "caveBGM",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "caveSecretBGM" : 
+          {
+            "Field Name" : "caveSecretBGM",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "forestBGM" : 
+          {
+            "Field Name" : "forestBGM",
+            "Field Type" : 0,
+            "Field Value" : true
+          },
+          "myBGMValue" : 
+          {
+            "Field Name" : "myBGMValue",
+            "Field Type" : 3,
+            "Field Value" : 0
+          },
+          "sourceArray" : null,
+          "undergroundBGM" : 
+          {
+            "Field Name" : "undergroundBGM",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "volumePitchArray" : null
+        }
+      ],
+      "ID" : 903,
+      "ObjName" : "MainGameBGM",
+      "Tag" : "BGMController",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 1.1920928955078125e-07, 5.9604644775390625e-08, 10.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 0.69999998807907104,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_State_Bounce",
+          "Volume" : 0.60000002384185791
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_State_Sling",
+          "Volume" : 0.60000002384185791
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_RockDropCave",
+          "Volume" : 0.60000002384185791
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_RockDropForest",
+          "Volume" : 0.60000002384185791
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_State_Damaged",
+          "Volume" : 0.60000002384185791
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_State_Running",
+          "Volume" : 0.80000001192092896
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 0.25,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_State_Sliding",
+          "Volume" : 0.30000001192092896
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_Tongue_Link",
+          "Volume" : 0.80000001192092896
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 0.80000001192092896,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_Tongue_Out",
+          "Volume" : 0.30000001192092896
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 0.66600000858306885,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_Talk_Player",
+          "Volume" : 0.80000001192092896
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 0.80000001192092896,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_Tongue_Hit",
+          "Volume" : 0.40000000596046448
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 0.5,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_Checkpoint",
+          "Volume" : 1.0
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_State_Hinge",
+          "Volume" : 0.5
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 0.30000001192092896,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_EnemyDeath",
+          "Volume" : 0.60000002384185791
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 0.80000001192092896,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_EnemyAttack",
+          "Volume" : 0.80000001192092896
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 2.0,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_EnemyShoot",
+          "Volume" : 0.5
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 0.89999997615814209,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_EnemyWalk",
+          "Volume" : 0.30000001192092896
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 0.89999997615814209,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_RockDrop",
+          "Volume" : 0.40000000596046448
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_RockFall",
+          "Volume" : 0.80000001192092896
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_Mouse_Click",
+          "Volume" : 0.5
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 0.80000001192092896,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_State_Jumping",
+          "Volume" : 0.20000000298023224
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_EatEnemy",
+          "Volume" : 0.40000000596046448
+        },
+        {
+          "Active" : true,
+          "Component Name" : "AudioSource",
+          "Dimension" : false,
+          "Loop" : false,
+          "Mute" : false,
+          "Pitch" : 1.0,
+          "PlayOnStart" : false,
+          "Priority" : 0,
+          "Source Name" : "SFX_EnemyAttack",
+          "Volume" : 1.0
+        }
+      ],
+      "ID" : 904,
+      "ObjName" : "MainGameSFX",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 1.1920928955078125e-07, 5.9604644775390625e-08, 10.0 ],
+        "Rotation" : [ -0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Child" : 
+      [
+        {
+          "Active" : true,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "BoxCollider",
+              "Height" : 0.10000000149011612,
+              "Is Sensor" : true,
+              "Orientation" : 0.0,
+              "Position" : [ 0.0, 0.0 ],
+              "Width" : 0.40000000596046448
+            },
+            {
+              "Active" : true,
+              "Angular Drag" : 0.0,
+              "Angular Velocity" : 0.0,
+              "Component Name" : "RigidBody",
+              "Drag" : 0.0,
+              "Dynamic Friction" : 0.0,
+              "Gravity Scale" : 0.0,
+              "Inverse Inertia" : 0.0,
+              "Inverse Mass" : 999.99993896484375,
+              "Restitution" : 0.0,
+              "Static Friction" : 0.0,
+              "Time Scale" : 1.0,
+              "Velocity" : [ 0.0, 0.0 ]
+            },
+            {
+              "Active" : true,
+              "Component Name" : "PlayerCheckers",
+              "checkBounce" : 
+              {
+                "Field Name" : "checkBounce",
+                "Field Type" : 0,
+                "Field Value" : true
+              },
+              "checkGround" : 
+              {
+                "Field Name" : "checkGround",
+                "Field Type" : 0,
+                "Field Value" : true
+              },
+              "checkJumpWall" : 
+              {
+                "Field Name" : "checkJumpWall",
+                "Field Type" : 0,
+                "Field Value" : false
+              },
+              "checkWall" : 
+              {
+                "Field Name" : "checkWall",
+                "Field Type" : 0,
+                "Field Value" : false
+              },
+              "hasInit" : 
+              {
+                "Field Name" : "hasInit",
+                "Field Type" : 0,
+                "Field Value" : false
+              },
+              "isCollidingBounce" : 
+              {
+                "Field Name" : "isCollidingBounce",
+                "Field Type" : 0,
+                "Field Value" : false
+              },
+              "isCollidingGround" : 
+              {
+                "Field Name" : "isCollidingGround",
+                "Field Type" : 0,
+                "Field Value" : false
+              },
+              "isCollidingJumpWall" : 
+              {
+                "Field Name" : "isCollidingJumpWall",
+                "Field Type" : 0,
+                "Field Value" : false
+              },
+              "isCollidingWall" : 
+              {
+                "Field Name" : "isCollidingWall",
+                "Field Type" : 0,
+                "Field Value" : false
+              },
+              "listOfCollisionIgnore" : null,
+              "touchedBounceObject" : null,
+              "touchedGroundObject" : null,
+              "touchedJumpWallObject" : null,
+              "touchedWallObject" : null
+            }
+          ],
+          "ID" : 906,
+          "ObjName" : "PlayerCheckGround",
+          "Tag" : "IgnoreCollision",
+          "Transform" : 
+          {
+            "Active" : true,
+            "Component Name" : "Transform",
+            "Position" : [ 0.0, -0.5, 0.0 ],
+            "Rotation" : [ 0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        },
+        {
+          "Active" : true,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "BoxCollider",
+              "Height" : 0.40000000596046448,
+              "Is Sensor" : true,
+              "Orientation" : 0.0,
+              "Position" : [ 0.0, 0.0 ],
+              "Width" : 0.10000000149011612
+            },
+            {
+              "Active" : true,
+              "Angular Drag" : 0.0,
+              "Angular Velocity" : 0.0,
+              "Component Name" : "RigidBody",
+              "Drag" : 0.0,
+              "Dynamic Friction" : 0.0,
+              "Gravity Scale" : 0.0,
+              "Inverse Inertia" : 0.0,
+              "Inverse Mass" : 999.99993896484375,
+              "Restitution" : 0.0,
+              "Static Friction" : 0.0,
+              "Time Scale" : 1.0,
+              "Velocity" : [ 0.0, 0.0 ]
+            },
+            {
+              "Active" : true,
+              "Component Name" : "PlayerCheckers",
+              "checkBounce" : 
+              {
+                "Field Name" : "checkBounce",
+                "Field Type" : 0,
+                "Field Value" : false
+              },
+              "checkGround" : 
+              {
+                "Field Name" : "checkGround",
+                "Field Type" : 0,
+                "Field Value" : false
+              },
+              "checkJumpWall" : 
+              {
+                "Field Name" : "checkJumpWall",
+                "Field Type" : 0,
+                "Field Value" : true
+              },
+              "checkWall" : 
+              {
+                "Field Name" : "checkWall",
+                "Field Type" : 0,
+                "Field Value" : true
+              },
+              "hasInit" : 
+              {
+                "Field Name" : "hasInit",
+                "Field Type" : 0,
+                "Field Value" : false
+              },
+              "isCollidingBounce" : 
+              {
+                "Field Name" : "isCollidingBounce",
+                "Field Type" : 0,
+                "Field Value" : false
+              },
+              "isCollidingGround" : 
+              {
+                "Field Name" : "isCollidingGround",
+                "Field Type" : 0,
+                "Field Value" : false
+              },
+              "isCollidingJumpWall" : 
+              {
+                "Field Name" : "isCollidingJumpWall",
+                "Field Type" : 0,
+                "Field Value" : false
+              },
+              "isCollidingWall" : 
+              {
+                "Field Name" : "isCollidingWall",
+                "Field Type" : 0,
+                "Field Value" : false
+              },
+              "listOfCollisionIgnore" : null,
+              "touchedBounceObject" : null,
+              "touchedGroundObject" : null,
+              "touchedJumpWallObject" : null,
+              "touchedWallObject" : null
+            }
+          ],
+          "ID" : 907,
+          "ObjName" : "PlayerCheckWall",
+          "Tag" : "IgnoreCollision",
+          "Transform" : 
+          {
+            "Active" : true,
+            "Component Name" : "Transform",
+            "Position" : [ 0.5, 0.0, 0.0 ],
+            "Rotation" : [ 0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        },
+        {
+          "Active" : true,
+          "ID" : 908,
+          "ObjName" : "PlayerHead",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : true,
+            "Component Name" : "Transform",
+            "Position" : [ 0.20000000298023224, 0.12003540247678757, 0.10000000149011612 ],
+            "Rotation" : [ 0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        },
+        {
+          "Active" : true,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "ParticleEmitter",
+              "EndColorMaxW" : 0.098039217293262482,
+              "EndColorMaxX" : 0.62473595142364502,
+              "EndColorMaxY" : 0.76470589637756348,
+              "EndColorMaxZ" : 0.6110149621963501,
+              "EndColorMinW" : 0.3490196168422699,
+              "EndColorMinX" : 0.83989208936691284,
+              "EndColorMinY" : 0.87745100259780884,
+              "EndColorMinZ" : 0.83873993158340454,
+              "ParticleLinesCenterX" : 0.0,
+              "ParticleLinesCenterY" : 0.0,
+              "StartColorMaxW" : 0.98823529481887817,
+              "StartColorMaxX" : 0.87705236673355103,
+              "StartColorMaxY" : 0.95588237047195435,
+              "StartColorMaxZ" : 0.85279697179794312,
+              "StartColorMinW" : 1.0,
+              "StartColorMinX" : 0.90874969959259033,
+              "StartColorMinY" : 0.95588237047195435,
+              "StartColorMinZ" : 0.87153977155685425,
+              "circleRadius" : 0.0,
+              "coneAngle" : 0.0,
+              "constForceMaxX" : 0.0,
+              "constForceMaxY" : 0.40000000596046448,
+              "constForceMinX" : 0.0,
+              "constForceMinY" : 0.10000000149011612,
+              "duration" : 1.0,
+              "edgeLength" : 0.10000000149011612,
+              "emitterMode" : 3,
+              "finalScaleMax" : 0.20000000298023224,
+              "finalScaleMin" : 0.10000000149011612,
+              "lifeTimeMax" : 0.80000001192092896,
+              "lifeTimeMin" : 0.40000000596046448,
+              "looping" : false,
+              "particlePerSecond" : 5.0,
+              "rotateToVelocity" : false,
+              "rotationMax" : 25.0,
+              "rotationMin" : -25.0,
+              "rotationSpeedMax" : 0.0,
+              "rotationSpeedMin" : 0.0,
+              "scaleMax" : 0.40000000596046448,
+              "scaleMin" : 0.30000001192092896,
+              "startSpeedMax" : 0.0,
+              "startSpeedMin" : 0.0,
+              "texture" : "Grass_Particle"
+            }
+          ],
+          "ID" : 909,
+          "ObjName" : "GrassParticle",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : true,
+            "Component Name" : "Transform",
+            "Position" : [ 0.0, -0.30000001192092896, 0.10000000149011612 ],
+            "Rotation" : [ 0.0, 0.0, 0.0 ],
+            "Scale" : [ 3.0, 3.0, 1.0 ]
+          }
+        },
+        {
+          "Active" : true,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "ParticleEmitter",
+              "EndColorMaxW" : 0.098039217293262482,
+              "EndColorMaxX" : 0.72549021244049072,
+              "EndColorMaxY" : 0.72548729181289673,
+              "EndColorMaxZ" : 0.72548294067382813,
+              "EndColorMinW" : 0.3490196168422699,
+              "EndColorMinX" : 0.88235294818878174,
+              "EndColorMinY" : 0.88234984874725342,
+              "EndColorMinZ" : 0.88234412670135498,
+              "ParticleLinesCenterX" : 0.0,
+              "ParticleLinesCenterY" : 0.0,
+              "StartColorMaxW" : 0.98823529481887817,
+              "StartColorMaxX" : 1.0,
+              "StartColorMaxY" : 0.99999547004699707,
+              "StartColorMaxZ" : 0.99998998641967773,
+              "StartColorMinW" : 1.0,
+              "StartColorMinX" : 1.0,
+              "StartColorMinY" : 0.99999475479125977,
+              "StartColorMinZ" : 0.99998998641967773,
+              "circleRadius" : 0.0,
+              "coneAngle" : 0.0,
+              "constForceMaxX" : 0.0,
+              "constForceMaxY" : 0.40000000596046448,
+              "constForceMinX" : 0.0,
+              "constForceMinY" : 0.10000000149011612,
+              "duration" : 1.0,
+              "edgeLength" : 0.10000000149011612,
+              "emitterMode" : 3,
+              "finalScaleMax" : 0.0,
+              "finalScaleMin" : 0.10000000149011612,
+              "lifeTimeMax" : 0.80000001192092896,
+              "lifeTimeMin" : 0.40000000596046448,
+              "looping" : false,
+              "particlePerSecond" : 5.0,
+              "rotateToVelocity" : false,
+              "rotationMax" : 25.0,
+              "rotationMin" : -25.0,
+              "rotationSpeedMax" : 0.0,
+              "rotationSpeedMin" : 0.0,
+              "scaleMax" : 0.30000001192092896,
+              "scaleMin" : 0.20000000298023224,
+              "startSpeedMax" : 0.0,
+              "startSpeedMin" : 0.0,
+              "texture" : "Rock_Particle"
+            }
+          ],
+          "ID" : 910,
+          "ObjName" : "RockParticle",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : true,
+            "Component Name" : "Transform",
+            "Position" : [ 0.0, -0.30000001192092896, 0.10000000149011612 ],
+            "Rotation" : [ 0.0, 0.0, 0.0 ],
+            "Scale" : [ 3.0, 3.0, 1.0 ]
+          }
+        },
+        {
+          "Active" : true,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "ParticleEmitter",
+              "EndColorMaxW" : 0.098039217293262482,
+              "EndColorMaxX" : 0.96078431606292725,
+              "EndColorMaxY" : 0.94139134883880615,
+              "EndColorMaxZ" : 0.91368699073791504,
+              "EndColorMinW" : 0.3490196168422699,
+              "EndColorMinX" : 0.96568626165390015,
+              "EndColorMinY" : 0.95232051610946655,
+              "EndColorMinZ" : 0.92781621217727661,
+              "ParticleLinesCenterX" : 0.0,
+              "ParticleLinesCenterY" : 0.0,
+              "StartColorMaxW" : 0.98823529481887817,
+              "StartColorMaxX" : 0.92156863212585449,
+              "StartColorMaxY" : 0.86666667461395264,
+              "StartColorMaxZ" : 0.80000001192092896,
+              "StartColorMinW" : 1.0,
+              "StartColorMinX" : 0.92549020051956177,
+              "StartColorMinY" : 0.86666667461395264,
+              "StartColorMinZ" : 0.81176471710205078,
+              "circleRadius" : 0.0,
+              "coneAngle" : 0.0,
+              "constForceMaxX" : 0.0,
+              "constForceMaxY" : 0.40000000596046448,
+              "constForceMinX" : 0.0,
+              "constForceMinY" : 0.10000000149011612,
+              "duration" : 1.0,
+              "edgeLength" : 0.10000000149011612,
+              "emitterMode" : 3,
+              "finalScaleMax" : 0.60000002384185791,
+              "finalScaleMin" : 0.40000000596046448,
+              "lifeTimeMax" : 0.80000001192092896,
+              "lifeTimeMin" : 0.40000000596046448,
+              "looping" : false,
+              "particlePerSecond" : 5.0,
+              "rotateToVelocity" : false,
+              "rotationMax" : 25.0,
+              "rotationMin" : -25.0,
+              "rotationSpeedMax" : 0.0,
+              "rotationSpeedMin" : 0.0,
+              "scaleMax" : 0.40000000596046448,
+              "scaleMin" : 0.20000000298023224,
+              "startSpeedMax" : 0.0,
+              "startSpeedMin" : 0.0,
+              "texture" : "Dust_Particles"
+            }
+          ],
+          "ID" : 911,
+          "ObjName" : "DustParticle",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : true,
+            "Component Name" : "Transform",
+            "Position" : [ 0.0, -0.30000001192092896, 0.10000000149011612 ],
+            "Rotation" : [ 0.0, 0.0, 0.0 ],
+            "Scale" : [ 3.0, 3.0, 1.0 ]
+          }
+        }
+      ],
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "SpriteRenderer",
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 0.99998998641967773,
+          "colorZ" : 0.99998998641967773,
+          "maxCurrentX" : 1,
+          "maxCurrentY" : 1,
+          "maxFrameX" : 6,
+          "maxFrameY" : 6,
+          "textureName" : "Character_Idle"
+        },
+        {
+          "Active" : true,
+          "Affect Transform" : false,
+          "Animate Count" : -1,
+          "Component Name" : "Animator",
+          "File" : "PlayerIdleAnim",
+          "Speed" : 1.0,
+          "Starting Delay" : 0.0
+        },
+        {
+          "Active" : true,
+          "Component Name" : "CircleCollider",
+          "Is Sensor" : false,
+          "Position" : [ 0.0, 0.0 ],
+          "Radius" : 0.40000000596046448
+        },
+        {
+          "Active" : true,
+          "Angular Drag" : 0.0,
+          "Angular Velocity" : 0.0,
+          "Component Name" : "RigidBody",
+          "Drag" : 0.25,
+          "Dynamic Friction" : 0.0,
+          "Gravity Scale" : 3.0,
+          "Inverse Inertia" : 0.0,
+          "Inverse Mass" : 1.0,
+          "Restitution" : 0.0,
+          "Static Friction" : 0.0,
+          "Time Scale" : 1.0,
+          "Velocity" : [ 0.0, 0.0 ]
+        },
+        {
+          "Active" : true,
+          "Component Name" : "PlayerBehaviour",
+          "animDeath" : null,
+          "animFall" : null,
+          "animIdle" : null,
+          "animJump" : null,
+          "animJumpOpen" : null,
+          "animLand" : null,
+          "animMove" : null,
+          "animSlide" : null,
+          "animStaticOpen" : null,
+          "animStun" : null,
+          "animSwing" : null,
+          "animWallJump" : null,
+          "bgmController" : null,
+          "bgmControllerObject" : null,
+          "bouncingSpeed" : 
+          {
+            "Field Name" : "bouncingSpeed",
+            "Field Type" : 5,
+            "Field Value" : 10.0
+          },
+          "camera" : null,
+          "cameraBehaviour" : null,
+          "canControl" : 
+          {
+            "Field Name" : "canControl",
+            "Field Type" : 0,
+            "Field Value" : true
+          },
+          "canDie" : 
+          {
+            "Field Name" : "canDie",
+            "Field Type" : 0,
+            "Field Value" : true
+          },
+          "canUseTongue" : 
+          {
+            "Field Name" : "canUseTongue",
+            "Field Type" : 0,
+            "Field Value" : true
+          },
+          "canWallJump" : 
+          {
+            "Field Name" : "canWallJump",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "caveParticle" : 
+          {
+            "Field Name" : "caveParticle",
+            "Field Type" : 9,
+            "Field Value" : "RockParticle",
+            "Object ID" : 910
+          },
+          "checkerGround" : null,
+          "checkerMouse" : null,
+          "checkerTongue" : null,
+          "checkerWall" : null,
+          "checkpointPosition" : 
+          {
+            "Field Name" : "checkpointPosition",
+            "Field Type" : 8,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "dustParticle" : 
+          {
+            "Field Name" : "dustParticle",
+            "Field Type" : 9,
+            "Field Value" : "DustParticle",
+            "Object ID" : 911
+          },
+          "flashDurationCurrent" : 
+          {
+            "Field Name" : "flashDurationCurrent",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "flashDurationSet" : 
+          {
+            "Field Name" : "flashDurationSet",
+            "Field Type" : 5,
+            "Field Value" : 0.15000000596046448
+          },
+          "grassParticle" : 
+          {
+            "Field Name" : "grassParticle",
+            "Field Type" : 9,
+            "Field Value" : "GrassParticle",
+            "Object ID" : 909
+          },
+          "hasInit" : 
+          {
+            "Field Name" : "hasInit",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "hasPressedJump" : 
+          {
+            "Field Name" : "hasPressedJump",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "hasReleasedJump" : 
+          {
+            "Field Name" : "hasReleasedJump",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "healthCurrent" : 
+          {
+            "Field Name" : "healthCurrent",
+            "Field Type" : 3,
+            "Field Value" : 5
+          },
+          "healthMaximum" : 
+          {
+            "Field Name" : "healthMaximum",
+            "Field Type" : 3,
+            "Field Value" : 5
+          },
+          "hingedObject" : null,
+          "horizontalMovementAxis" : 
+          {
+            "Field Name" : "horizontalMovementAxis",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "invisDurationCurrent" : 
+          {
+            "Field Name" : "invisDurationCurrent",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "invisDurationSet" : 
+          {
+            "Field Name" : "invisDurationSet",
+            "Field Type" : 5,
+            "Field Value" : 1.0
+          },
+          "isDamaged" : 
+          {
+            "Field Name" : "isDamaged",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isFacingJumpWall" : 
+          {
+            "Field Name" : "isFacingJumpWall",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isFacingWall" : 
+          {
+            "Field Name" : "isFacingWall",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isFlashing" : 
+          {
+            "Field Name" : "isFlashing",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isGrass" : 
+          {
+            "Field Name" : "isGrass",
+            "Field Type" : 0,
+            "Field Value" : true
+          },
+          "isInvis" : 
+          {
+            "Field Name" : "isInvis",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isJumping" : 
+          {
+            "Field Name" : "isJumping",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isLanding" : 
+          {
+            "Field Name" : "isLanding",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isLaunched" : 
+          {
+            "Field Name" : "isLaunched",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isLaunching" : 
+          {
+            "Field Name" : "isLaunching",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isOnBounce" : 
+          {
+            "Field Name" : "isOnBounce",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isOnGround" : 
+          {
+            "Field Name" : "isOnGround",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isRespawning" : 
+          {
+            "Field Name" : "isRespawning",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isSliding" : 
+          {
+            "Field Name" : "isSliding",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isSlinging" : 
+          {
+            "Field Name" : "isSlinging",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isStunned" : 
+          {
+            "Field Name" : "isStunned",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isSwinging" : 
+          {
+            "Field Name" : "isSwinging",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isTongueExtending" : 
+          {
+            "Field Name" : "isTongueExtending",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isTongueOut" : 
+          {
+            "Field Name" : "isTongueOut",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isTurning" : 
+          {
+            "Field Name" : "isTurning",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "isWallJumping" : 
+          {
+            "Field Name" : "isWallJumping",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "jumpingSpeed" : 
+          {
+            "Field Name" : "jumpingSpeed",
+            "Field Type" : 5,
+            "Field Value" : 7.0
+          },
+          "landingDurationCurrent" : 
+          {
+            "Field Name" : "landingDurationCurrent",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "landingDurationSet" : 
+          {
+            "Field Name" : "landingDurationSet",
+            "Field Type" : 5,
+            "Field Value" : 0.10000000149011612
+          },
+          "lastTongueDir" : 
+          {
+            "Field Name" : "lastTongueDir",
+            "Field Type" : 8,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "launchingDurationCurrent" : 
+          {
+            "Field Name" : "launchingDurationCurrent",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "launchingDurationSet" : 
+          {
+            "Field Name" : "launchingDurationSet",
+            "Field Type" : 5,
+            "Field Value" : 0.20000000298023224
+          },
+          "m_startShake" : 
+          {
+            "Field Name" : "m_startShake",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "mouseInteractiveChecker" : 
+          {
+            "Field Name" : "mouseInteractiveChecker",
+            "Field Type" : 9,
+            "Field Value" : "MouseCollider",
+            "Object ID" : 915
+          },
+          "mouseScreenPosition" : 
+          {
+            "Field Name" : "mouseScreenPosition",
+            "Field Type" : 8,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "movementSpeed" : 
+          {
+            "Field Name" : "movementSpeed",
+            "Field Type" : 5,
+            "Field Value" : 3.0
+          },
+          "playerGroundChecker" : 
+          {
+            "Field Name" : "playerGroundChecker",
+            "Field Type" : 9,
+            "Field Value" : "PlayerCheckGround",
+            "Object ID" : 906
+          },
+          "playerHeadObject" : 
+          {
+            "Field Name" : "playerHeadObject",
+            "Field Type" : 9,
+            "Field Value" : "PlayerHead",
+            "Object ID" : 908
+          },
+          "playerState" : null,
+          "playerStatePrevious" : null,
+          "playerTongueChecker" : 
+          {
+            "Field Name" : "playerTongueChecker",
+            "Field Type" : 9,
+            "Field Value" : "TongueCollision",
+            "Object ID" : 914
+          },
+          "playerTongueObject" : 
+          {
+            "Field Name" : "playerTongueObject",
+            "Field Type" : 9,
+            "Field Value" : "PlayerTongue(0.8)",
+            "Object ID" : 912
+          },
+          "playerTongueSprite" : 
+          {
+            "Field Name" : "playerTongueSprite",
+            "Field Type" : 9,
+            "Field Value" : "TongueSprite",
+            "Object ID" : 913
+          },
+          "playerTongueSpriteRenderer" : null,
+          "playerWallChecker" : 
+          {
+            "Field Name" : "playerWallChecker",
+            "Field Type" : 9,
+            "Field Value" : "PlayerCheckWall",
+            "Object ID" : 907
+          },
+          "rb2D" : null,
+          "respawnDurationCurrent" : 
+          {
+            "Field Name" : "respawnDurationCurrent",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "respawnDurationSet" : 
+          {
+            "Field Name" : "respawnDurationSet",
+            "Field Type" : 5,
+            "Field Value" : 2.0
+          },
+          "savedBGMValue" : 
+          {
+            "Field Name" : "savedBGMValue",
+            "Field Type" : 3,
+            "Field Value" : 0
+          },
+          "savedVignetteOn" : 
+          {
+            "Field Name" : "savedVignetteOn",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "savedVisionValue" : 
+          {
+            "Field Name" : "savedVisionValue",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "sheetDeath" : null,
+          "sheetFall" : null,
+          "sheetIdle" : null,
+          "sheetJump" : null,
+          "sheetJumpOpen" : null,
+          "sheetLand" : null,
+          "sheetMove" : null,
+          "sheetSlide" : null,
+          "sheetStaticOpen" : null,
+          "sheetStun" : null,
+          "sheetSwing" : null,
+          "sheetWallJump" : null,
+          "slideCooldownDurationCurrent" : 
+          {
+            "Field Name" : "slideCooldownDurationCurrent",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "slideCooldownDurationSet" : 
+          {
+            "Field Name" : "slideCooldownDurationSet",
+            "Field Type" : 5,
+            "Field Value" : 1.0
+          },
+          "slidingDurationCurrent" : 
+          {
+            "Field Name" : "slidingDurationCurrent",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "slidingDurationSet" : 
+          {
+            "Field Name" : "slidingDurationSet",
+            "Field Type" : 5,
+            "Field Value" : 0.5
+          },
+          "slidingSpeed" : 
+          {
+            "Field Name" : "slidingSpeed",
+            "Field Type" : 5,
+            "Field Value" : 5.0
+          },
+          "slingingSpeed" : 
+          {
+            "Field Name" : "slingingSpeed",
+            "Field Type" : 5,
+            "Field Value" : 10.0
+          },
+          "spriteAnimator" : null,
+          "spriteRenderer" : null,
+          "stunDurationCurrent" : 
+          {
+            "Field Name" : "stunDurationCurrent",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "stunDurationSet" : 
+          {
+            "Field Name" : "stunDurationSet",
+            "Field Type" : 5,
+            "Field Value" : 1.0
+          },
+          "swingLengthMax" : 
+          {
+            "Field Name" : "swingLengthMax",
+            "Field Type" : 5,
+            "Field Value" : 2.0
+          },
+          "swingingSpeed" : 
+          {
+            "Field Name" : "swingingSpeed",
+            "Field Type" : 5,
+            "Field Value" : 0.5
+          },
+          "tempParticle" : null,
+          "tongueCurrentObject" : null,
+          "tongueCurrentScale" : 
+          {
+            "Field Name" : "tongueCurrentScale",
+            "Field Type" : 8,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "tongueDirectionTarget" : 
+          {
+            "Field Name" : "tongueDirectionTarget",
+            "Field Type" : 8,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "tongueDurationCurrent" : 
+          {
+            "Field Name" : "tongueDurationCurrent",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "tongueDurationSet" : 
+          {
+            "Field Name" : "tongueDurationSet",
+            "Field Type" : 5,
+            "Field Value" : 0.20000000298023224
+          },
+          "tongueLengthMaximum" : 
+          {
+            "Field Name" : "tongueLengthMaximum",
+            "Field Type" : 5,
+            "Field Value" : 2.0
+          },
+          "tongueLengthTarget" : 
+          {
+            "Field Name" : "tongueLengthTarget",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "tongueObjectPosition" : 
+          {
+            "Field Name" : "tongueObjectPosition",
+            "Field Type" : 8,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "tonguePositionJump" : 
+          {
+            "Field Name" : "tonguePositionJump",
+            "Field Type" : 8,
+            "Field Value" : [ 0.20000000298023224, 0.11999999731779099, 0.10000000149011612 ]
+          },
+          "tonguePositionNormal" : 
+          {
+            "Field Name" : "tonguePositionNormal",
+            "Field Type" : 8,
+            "Field Value" : [ 0.18000000715255737, 0.11999999731779099, 0.10000000149011612 ]
+          },
+          "tonguePositionStatic" : 
+          {
+            "Field Name" : "tonguePositionStatic",
+            "Field Type" : 8,
+            "Field Value" : [ 0.18000000715255737, 0.11999999731779099, 0.10000000149011612 ]
+          },
+          "tonguePositionSwing" : 
+          {
+            "Field Name" : "tonguePositionSwing",
+            "Field Type" : 8,
+            "Field Value" : [ 0.20000000298023224, 0.23000000417232513, 0.10000000149011612 ]
+          },
+          "tonguePositionTarget" : 
+          {
+            "Field Name" : "tonguePositionTarget",
+            "Field Type" : 8,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "tongueSpeed" : 
+          {
+            "Field Name" : "tongueSpeed",
+            "Field Type" : 5,
+            "Field Value" : 8.0
+          },
+          "turnOnTimerFlashing" : 
+          {
+            "Field Name" : "turnOnTimerFlashing",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "turnOnTimerInvis" : 
+          {
+            "Field Name" : "turnOnTimerInvis",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "turnOnTimerLanding" : 
+          {
+            "Field Name" : "turnOnTimerLanding",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "turnOnTimerLaunching" : 
+          {
+            "Field Name" : "turnOnTimerLaunching",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "turnOnTimerRespawn" : 
+          {
+            "Field Name" : "turnOnTimerRespawn",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "turnOnTimerSlideCooldown" : 
+          {
+            "Field Name" : "turnOnTimerSlideCooldown",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "turnOnTimerSliding" : 
+          {
+            "Field Name" : "turnOnTimerSliding",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "turnOnTimerStun" : 
+          {
+            "Field Name" : "turnOnTimerStun",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "turnOnTimerTongue" : 
+          {
+            "Field Name" : "turnOnTimerTongue",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "turnOnTimerTurning" : 
+          {
+            "Field Name" : "turnOnTimerTurning",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "turningDurationCurrent" : 
+          {
+            "Field Name" : "turningDurationCurrent",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "turningDurationSet" : 
+          {
+            "Field Name" : "turningDurationSet",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "verticalMovementAxis" : 
+          {
+            "Field Name" : "verticalMovementAxis",
+            "Field Type" : 5,
+            "Field Value" : 0.0
+          },
+          "wallJumpingSpeed" : 
+          {
+            "Field Name" : "wallJumpingSpeed",
+            "Field Type" : 5,
+            "Field Value" : 5.0
+          }
+        }
+      ],
+      "ID" : 905,
+      "ObjName" : "PlayerCharacter(0.7)",
+      "Tag" : "Player",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 0.0, -0.89999997615814209, 0.69999998807907104 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Child" : 
+      [
+        {
+          "Active" : true,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "SpriteRenderer",
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "maxCurrentX" : 1,
+              "maxCurrentY" : 1,
+              "maxFrameX" : 1,
+              "maxFrameY" : 1,
+              "textureName" : "Player_Tongue"
+            }
+          ],
+          "ID" : 913,
+          "ObjName" : "TongueSprite",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : true,
+            "Component Name" : "Transform",
+            "Position" : [ 0.5, 0.0, 0.0 ],
+            "Rotation" : [ 0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 0.10000000149011612, 1.0 ]
+          }
+        },
+        {
+          "Active" : true,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "CircleCollider",
+              "Is Sensor" : true,
+              "Position" : [ 0.0, 0.0 ],
+              "Radius" : 0.10000000149011612
+            },
+            {
+              "Active" : true,
+              "Angular Drag" : 0.0,
+              "Angular Velocity" : 0.0,
+              "Component Name" : "RigidBody",
+              "Drag" : 0.0,
+              "Dynamic Friction" : 0.0,
+              "Gravity Scale" : 0.0,
+              "Inverse Inertia" : 0.0,
+              "Inverse Mass" : 999.99993896484375,
+              "Restitution" : 0.0,
+              "Static Friction" : 0.0,
+              "Time Scale" : 1.0,
+              "Velocity" : [ 0.0, 0.0 ]
+            },
+            {
+              "Active" : true,
+              "Component Name" : "PlayerTongueCollision",
+              "isCollidingDeadEnemy" : 
+              {
+                "Field Name" : "isCollidingDeadEnemy",
+                "Field Type" : 0,
+                "Field Value" : false
+              },
+              "isCollidingHinge" : 
+              {
+                "Field Name" : "isCollidingHinge",
+                "Field Type" : 0,
+                "Field Value" : false
+              },
+              "isCollidingSling" : 
+              {
+                "Field Name" : "isCollidingSling",
+                "Field Type" : 0,
+                "Field Value" : false
+              },
+              "isCollidingSomething" : 
+              {
+                "Field Name" : "isCollidingSomething",
+                "Field Type" : 0,
+                "Field Value" : false
+              },
+              "touchedObject" : null,
+              "touchedPosition" : 
+              {
+                "Field Name" : "touchedPosition",
+                "Field Type" : 8,
+                "Field Value" : [ 0.0, 0.0, 0.0 ]
+              }
+            }
+          ],
+          "ID" : 914,
+          "ObjName" : "TongueCollision",
+          "Tag" : "IgnoreCollision",
+          "Transform" : 
+          {
+            "Active" : true,
+            "Component Name" : "Transform",
+            "Position" : [ 1.1000000238418579, 0.0, 0.0 ],
+            "Rotation" : [ 0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        }
+      ],
+      "ID" : 912,
+      "ObjName" : "PlayerTongue(0.8)",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 0.0, 0.0, 0.80000019073486328 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "SpriteRenderer",
+          "colorW" : 1.0,
+          "colorX" : 1.0,
+          "colorY" : 1.0,
+          "colorZ" : 1.0,
+          "maxCurrentX" : 1,
+          "maxCurrentY" : 1,
+          "maxFrameX" : 1,
+          "maxFrameY" : 1,
+          "textureName" : "Normal_Cursor"
+        },
+        {
+          "Active" : true,
+          "Component Name" : "CircleCollider",
+          "Is Sensor" : true,
+          "Position" : [ 0.0, 0.0 ],
+          "Radius" : 0.40000000596046448
+        },
+        {
+          "Active" : true,
+          "Angular Drag" : 0.0,
+          "Angular Velocity" : 0.0,
+          "Component Name" : "RigidBody",
+          "Drag" : 0.0,
+          "Dynamic Friction" : 0.0,
+          "Gravity Scale" : 0.0,
+          "Inverse Inertia" : 0.0,
+          "Inverse Mass" : 999.99993896484375,
+          "Restitution" : 0.0,
+          "Static Friction" : 0.0,
+          "Time Scale" : 1.0,
+          "Velocity" : [ 0.0, 0.0 ]
+        },
+        {
+          "Active" : true,
+          "Component Name" : "MouseController",
+          "hoverObject" : null,
+          "hoverOff" : null,
+          "hoverOn" : null,
+          "hoverPosition" : 
+          {
+            "Field Name" : "hoverPosition",
+            "Field Type" : 8,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "isHovering" : 
+          {
+            "Field Name" : "isHovering",
+            "Field Type" : 0,
+            "Field Value" : false
+          },
+          "mouseScreenPosition" : 
+          {
+            "Field Name" : "mouseScreenPosition",
+            "Field Type" : 8,
+            "Field Value" : [ 0.0, 0.0, 0.0 ]
+          },
+          "spriteRenderer" : null
+        }
+      ],
+      "ID" : 915,
+      "ObjName" : "MouseCollider",
+      "Tag" : "IgnoreCollision",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 0.0, 0.0, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 0.5, 0.5, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Child" : 
+      [
+        {
+          "Active" : true,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "SpriteRenderer",
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "maxCurrentX" : 1,
+              "maxCurrentY" : 1,
+              "maxFrameX" : 1,
+              "maxFrameY" : 1,
+              "textureName" : "UndergroundForest_Breakable_Spike_3"
+            },
+            {
+              "Active" : true,
+              "Component Name" : "BoxCollider",
+              "Height" : 1.0,
+              "Is Sensor" : false,
+              "Orientation" : 0.0,
+              "Position" : [ 0.0, 0.0 ],
+              "Width" : 1.0
+            },
+            {
+              "Active" : true,
+              "Angular Drag" : 0.0,
+              "Angular Velocity" : 0.0,
+              "Component Name" : "RigidBody",
+              "Drag" : 0.25,
+              "Dynamic Friction" : 0.0,
+              "Gravity Scale" : 0.0,
+              "Inverse Inertia" : 0.0,
+              "Inverse Mass" : 0.0,
+              "Restitution" : 0.0,
+              "Static Friction" : 0.0,
+              "Time Scale" : 1.0,
+              "Velocity" : [ 0.0, 0.0 ]
+            }
+          ],
+          "ID" : 917,
+          "ObjName" : "BlockageObject1",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : true,
+            "Component Name" : "Transform",
+            "Position" : [ 0.0, 0.0, 0.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        }
+      ],
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "BoxCollider",
+          "Height" : 1.0,
+          "Is Sensor" : true,
+          "Orientation" : 0.0,
+          "Position" : [ 0.0, 0.0 ],
+          "Width" : 1.2000000476837158
+        },
+        {
+          "Active" : true,
+          "Angular Drag" : 0.0,
+          "Angular Velocity" : 0.0,
+          "Component Name" : "RigidBody",
+          "Drag" : 0.0,
+          "Dynamic Friction" : 0.0,
+          "Gravity Scale" : 0.0,
+          "Inverse Inertia" : 0.0,
+          "Inverse Mass" : 999.99993896484375,
+          "Restitution" : 0.0,
+          "Static Friction" : 0.0,
+          "Time Scale" : 1.0,
+          "Velocity" : [ 0.0, 0.0 ]
+        },
+        {
+          "Active" : true,
+          "Component Name" : "Blockage",
+          "blockageCollider" : null,
+          "blockageObject" : 
+          {
+            "Field Name" : "blockageObject",
+            "Field Type" : 9,
+            "Field Value" : "BlockageObject1",
+            "Object ID" : 917
+          }
+        }
+      ],
+      "ID" : 916,
+      "ObjName" : "BlockageChecker1",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ -2.0, -1.0, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Child" : 
+      [
+        {
+          "Active" : true,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "SpriteRenderer",
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "maxCurrentX" : 1,
+              "maxCurrentY" : 1,
+              "maxFrameX" : 1,
+              "maxFrameY" : 1,
+              "textureName" : "UndergroundForest_Breakable_Spike_3"
+            },
+            {
+              "Active" : true,
+              "Component Name" : "BoxCollider",
+              "Height" : 1.0,
+              "Is Sensor" : false,
+              "Orientation" : 0.0,
+              "Position" : [ 0.0, 0.0 ],
+              "Width" : 1.0
+            },
+            {
+              "Active" : true,
+              "Angular Drag" : 0.0,
+              "Angular Velocity" : 0.0,
+              "Component Name" : "RigidBody",
+              "Drag" : 0.25,
+              "Dynamic Friction" : 0.10000000149011612,
+              "Gravity Scale" : 0.0,
+              "Inverse Inertia" : 0.0,
+              "Inverse Mass" : 0.0,
+              "Restitution" : 0.0,
+              "Static Friction" : 0.15000000596046448,
+              "Time Scale" : 1.0,
+              "Velocity" : [ 0.0, 0.0 ]
+            }
+          ],
+          "ID" : 919,
+          "ObjName" : "BlockageObject2",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : true,
+            "Component Name" : "Transform",
+            "Position" : [ 0.0, 0.0, 0.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        }
+      ],
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "BoxCollider",
+          "Height" : 1.0,
+          "Is Sensor" : true,
+          "Orientation" : 0.0,
+          "Position" : [ 0.0, 0.0 ],
+          "Width" : 1.2000000476837158
+        },
+        {
+          "Active" : true,
+          "Angular Drag" : 0.0,
+          "Angular Velocity" : 0.0,
+          "Component Name" : "RigidBody",
+          "Drag" : 0.0,
+          "Dynamic Friction" : 0.10000000149011612,
+          "Gravity Scale" : 0.0,
+          "Inverse Inertia" : 0.0,
+          "Inverse Mass" : 999.99993896484375,
+          "Restitution" : 0.0,
+          "Static Friction" : 0.15000000596046448,
+          "Time Scale" : 1.0,
+          "Velocity" : [ 0.0, 0.0 ]
+        },
+        {
+          "Active" : true,
+          "Component Name" : "Blockage",
+          "blockageCollider" : null,
+          "blockageObject" : 
+          {
+            "Field Name" : "blockageObject",
+            "Field Type" : 9,
+            "Field Value" : "BlockageObject2",
+            "Object ID" : 919
+          }
+        }
+      ],
+      "ID" : 918,
+      "ObjName" : "BlockageChecker2",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 3.0, -1.0, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Child" : 
+      [
+        {
+          "Active" : true,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "SpriteRenderer",
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "maxCurrentX" : 1,
+              "maxCurrentY" : 1,
+              "maxFrameX" : 1,
+              "maxFrameY" : 1,
+              "textureName" : "UndergroundForest_Breakable_Spike_3"
+            },
+            {
+              "Active" : true,
+              "Component Name" : "BoxCollider",
+              "Height" : 1.0,
+              "Is Sensor" : false,
+              "Orientation" : 0.0,
+              "Position" : [ 0.0, 0.0 ],
+              "Width" : 1.0
+            },
+            {
+              "Active" : true,
+              "Angular Drag" : 0.0,
+              "Angular Velocity" : 0.0,
+              "Component Name" : "RigidBody",
+              "Drag" : 0.25,
+              "Dynamic Friction" : 0.10000000149011612,
+              "Gravity Scale" : 0.0,
+              "Inverse Inertia" : 0.0,
+              "Inverse Mass" : 0.0,
+              "Restitution" : 0.0,
+              "Static Friction" : 0.15000000596046448,
+              "Time Scale" : 1.0,
+              "Velocity" : [ 0.0, 0.0 ]
+            }
+          ],
+          "ID" : 921,
+          "ObjName" : "BlockageObject3",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : true,
+            "Component Name" : "Transform",
+            "Position" : [ 0.0, 0.0, 0.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        }
+      ],
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "BoxCollider",
+          "Height" : 1.0,
+          "Is Sensor" : true,
+          "Orientation" : 0.0,
+          "Position" : [ 0.0, 0.0 ],
+          "Width" : 1.2000000476837158
+        },
+        {
+          "Active" : true,
+          "Angular Drag" : 0.0,
+          "Angular Velocity" : 0.0,
+          "Component Name" : "RigidBody",
+          "Drag" : 0.0,
+          "Dynamic Friction" : 0.10000000149011612,
+          "Gravity Scale" : 0.0,
+          "Inverse Inertia" : 0.0,
+          "Inverse Mass" : 999.99993896484375,
+          "Restitution" : 0.0,
+          "Static Friction" : 0.15000000596046448,
+          "Time Scale" : 1.0,
+          "Velocity" : [ 0.0, 0.0 ]
+        },
+        {
+          "Active" : true,
+          "Component Name" : "Blockage",
+          "blockageCollider" : null,
+          "blockageObject" : 
+          {
+            "Field Name" : "blockageObject",
+            "Field Type" : 9,
+            "Field Value" : "BlockageObject3",
+            "Object ID" : 921
+          }
+        }
+      ],
+      "ID" : 920,
+      "ObjName" : "BlockageChecker3",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 4.0, -1.0, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    },
+    {
+      "Active" : true,
+      "Child" : 
+      [
+        {
+          "Active" : true,
+          "Components" : 
+          [
+            {
+              "Active" : true,
+              "Component Name" : "SpriteRenderer",
+              "colorW" : 1.0,
+              "colorX" : 1.0,
+              "colorY" : 1.0,
+              "colorZ" : 1.0,
+              "maxCurrentX" : 1,
+              "maxCurrentY" : 1,
+              "maxFrameX" : 1,
+              "maxFrameY" : 1,
+              "textureName" : "UndergroundForest_Breakable_Spike_3"
+            },
+            {
+              "Active" : true,
+              "Component Name" : "BoxCollider",
+              "Height" : 1.0,
+              "Is Sensor" : false,
+              "Orientation" : 0.0,
+              "Position" : [ 0.0, 0.0 ],
+              "Width" : 1.0
+            },
+            {
+              "Active" : true,
+              "Angular Drag" : 0.0,
+              "Angular Velocity" : 0.0,
+              "Component Name" : "RigidBody",
+              "Drag" : 0.25,
+              "Dynamic Friction" : 0.10000000149011612,
+              "Gravity Scale" : 0.0,
+              "Inverse Inertia" : 0.0,
+              "Inverse Mass" : 0.0,
+              "Restitution" : 0.0,
+              "Static Friction" : 0.15000000596046448,
+              "Time Scale" : 1.0,
+              "Velocity" : [ 0.0, 0.0 ]
+            }
+          ],
+          "ID" : 923,
+          "ObjName" : "BlockageObject4",
+          "Tag" : "None",
+          "Transform" : 
+          {
+            "Active" : true,
+            "Component Name" : "Transform",
+            "Position" : [ 0.0, 0.0, 0.0 ],
+            "Rotation" : [ -0.0, 0.0, 0.0 ],
+            "Scale" : [ 1.0, 1.0, 1.0 ]
+          }
+        }
+      ],
+      "Components" : 
+      [
+        {
+          "Active" : true,
+          "Component Name" : "BoxCollider",
+          "Height" : 1.0,
+          "Is Sensor" : true,
+          "Orientation" : 0.0,
+          "Position" : [ 0.0, 0.0 ],
+          "Width" : 1.2000000476837158
+        },
+        {
+          "Active" : true,
+          "Angular Drag" : 0.0,
+          "Angular Velocity" : 0.0,
+          "Component Name" : "RigidBody",
+          "Drag" : 0.0,
+          "Dynamic Friction" : 0.10000000149011612,
+          "Gravity Scale" : 0.0,
+          "Inverse Inertia" : 0.0,
+          "Inverse Mass" : 999.99993896484375,
+          "Restitution" : 0.0,
+          "Static Friction" : 0.15000000596046448,
+          "Time Scale" : 1.0,
+          "Velocity" : [ 0.0, 0.0 ]
+        },
+        {
+          "Active" : true,
+          "Component Name" : "Blockage",
+          "blockageCollider" : null,
+          "blockageObject" : 
+          {
+            "Field Name" : "blockageObject",
+            "Field Type" : 9,
+            "Field Value" : "BlockageObject4",
+            "Object ID" : 923
+          }
+        }
+      ],
+      "ID" : 922,
+      "ObjName" : "BlockageChecker4",
+      "Tag" : "None",
+      "Transform" : 
+      {
+        "Active" : true,
+        "Component Name" : "Transform",
+        "Position" : [ 5.0, -1.0, 0.0 ],
+        "Rotation" : [ 0.0, 0.0, 0.0 ],
+        "Scale" : [ 1.0, 1.0, 1.0 ]
+      }
+    }
+  ],
+  "PhysicsManager" : 
+  {
+    "Collision" : true,
+    "DebugDraw" : "11111111",
+    "Gravity" : [ 0.0, -10.0 ]
+  },
+  "SceneName" : "00_BaseScene",
+  "SceneRenderer" : null
+}
